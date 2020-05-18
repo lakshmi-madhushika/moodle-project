@@ -1,0 +1,32 @@
+1.what are the basic components of HCI
+A. Human
+B. Modality
+C. Computer
+D. Interaction
+Answer  :   A,C,D
+2..which individual proposed the memax device
+A. Vannevar bush
+B. j.r. liklider
+C. Alan kay
+D. Tim berners lee
+Answer:   A
+3..which individual invented the Dynabook
+A. Vannevar bush
+B. j.r. liklider
+C. Alan kay
+D. Tim berners lee
+Answer:   C
+4..which individual invented the WWW
+A. Vannevar bush
+B. j.r. liklider
+C. Alan kay
+D. Tim berners lee
+Answer :  D
+5..which individual invented the sketchpad
+A. Vannevar bush
+B. Ivan sutherland
+C. Alan kay
+D. Tim berners lee
+Answer:  B
+
+
