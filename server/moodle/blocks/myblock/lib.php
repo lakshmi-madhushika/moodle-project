@@ -79,7 +79,7 @@ function get_login_data(){
    
   $X=0;
    foreach ($login5 as $c5=>$val5) { 
-        if($val5->courseid==10 ){
+        if($val5->courseid==1 ){
           //  echo $val5->courseid.'<br>';
             for($i=0;$i<12;$i++){
                 if($val5->month==$label[$i]){
@@ -105,7 +105,7 @@ function get_login_data(){
        }      
          
     } 
-    $sq="SELECT id,shortname,fullname FROM {course} WHERE id=10;";
+    $sq="SELECT id,shortname,fullname FROM {course} WHERE id=1;";
     $d=$DB->get_records_sql($sq); 
     foreach($d as $q=>$short){
        $name=$short->shortname;
