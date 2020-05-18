@@ -1,4 +1,4 @@
-DIR = C:\mood\server
+DIR = C:\git_repo\moodle-project\server
 xampp = ?.?.?
 server = 1.8.0
 perl = 0

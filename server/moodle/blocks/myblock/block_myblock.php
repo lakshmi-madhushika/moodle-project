@@ -8,7 +8,7 @@ class block_myblock extends block_base {
     public function init(){
         $this->title='course login data';
     }
-
+//commites
     public function get_content(){
         global $USER, $COURSE, $CFG, $OUTPUT, $DB;
 
