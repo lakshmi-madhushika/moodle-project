@@ -5529,3 +5529,11 @@ InnoDB: directories yourself, InnoDB does not create them.
 2020-05-18  9:25:41 14936 [Note] Server socket created on IP: '::'.
 2020-05-18  9:25:44 14936 [Note] mysql\bin\mysqld.exe: ready for connections.
 Version: '10.1.16-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-05-18 13:54:09 11524 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+2020-05-18 13:54:09 11524 [Note] Event Scheduler: Purging the queue. 0 events
+2020-05-18 13:54:10 7684 [Note] InnoDB: FTS optimize thread exiting.
+2020-05-18 13:54:10 11524 [Note] InnoDB: Starting shutdown...
+2020-05-18 13:54:12 11524 [Note] InnoDB: Shutdown completed; log sequence number 40591393
+2020-05-18 13:54:12 11524 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
