@@ -6729,3 +6729,13 @@ InnoDB: directories yourself, InnoDB does not create them.
 2020-05-19 14:26:00 856 [Note] InnoDB: Dumping buffer pool(s) not yet started
 2020-05-19 14:26:00 16340 [Note] Plugin 'FEEDBACK' is disabled.
 2020-05-19 14:26:00 16340 [Note] Server socket created on IP: '::'.
+2020-05-19 14:26:00 16340 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.16-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-05-19 20:19:52 6328 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+2020-05-19 20:19:52 6328 [Note] Event Scheduler: Purging the queue. 0 events
+2020-05-19 20:19:53 6500 [Note] InnoDB: FTS optimize thread exiting.
+2020-05-19 20:19:53 6328 [Note] InnoDB: Starting shutdown...
+2020-05-19 20:19:54 6328 [Note] InnoDB: Shutdown completed; log sequence number 46617477
+2020-05-19 20:19:54 6328 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
