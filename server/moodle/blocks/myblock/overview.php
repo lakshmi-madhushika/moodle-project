@@ -39,7 +39,7 @@ $title = 'Overview of students';
 $PAGE->set_title($title);
 $PAGE->set_heading($title);
 $PAGE->navbar->add($title);
-
+$PAGE->requires->css('/blocks/myblock/styles.css');
 require_login($course, false);
 
 echo $OUTPUT->header();
@@ -47,13 +47,11 @@ echo $OUTPUT->heading($title, 2);
 
 echo $OUTPUT->container_start('block_myblock');
 
-echo '<div class="graph">';
-report_log_print_graph();
-echo '</div>';
 
 echo '<div>';
-get_login_data($courseid,$userid);
+button($id,$courseid,$userid);
 echo '</div>';
+
 
 echo $OUTPUT->container_end();
 
