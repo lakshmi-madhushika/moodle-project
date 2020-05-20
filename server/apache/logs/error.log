@@ -1199,3 +1199,17 @@ PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Tue May 19 20:19:52.431174 2020] [mpm_winnt:notice] [pid 7044:tid 728] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Tue May 19 20:19:54.755338 2020] [mpm_winnt:notice] [pid 8776:tid 616] AH00364: Child: All worker threads have exited.
 [Tue May 19 20:19:56.985063 2020] [mpm_winnt:notice] [pid 7044:tid 728] AH00430: Parent: Child process 8776 exited successfully.
+[Wed May 20 07:35:44.495393 2020] [ssl:warn] [pid 13372:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 20 07:35:45.284647 2020] [ssl:warn] [pid 13372:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Wed May 20 07:35:51.953210 2020] [mpm_winnt:notice] [pid 13372:tid 592] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Wed May 20 07:35:51.953210 2020] [mpm_winnt:notice] [pid 13372:tid 592] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Wed May 20 07:35:51.953210 2020] [core:notice] [pid 13372:tid 592] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Wed May 20 07:35:51.957197 2020] [mpm_winnt:notice] [pid 13372:tid 592] AH00418: Parent: Created child process 14492
+[Wed May 20 07:35:53.237507 2020] [ssl:warn] [pid 14492:tid 700] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 20 07:35:53.446590 2020] [ssl:warn] [pid 14492:tid 700] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Wed May 20 07:35:53.668379 2020] [mpm_winnt:notice] [pid 14492:tid 700] AH00354: Child: Starting 150 worker threads.
+[Wed May 20 08:27:57.604590 2020] [mpm_winnt:notice] [pid 13372:tid 592] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed May 20 08:27:59.687164 2020] [mpm_winnt:notice] [pid 14492:tid 700] AH00364: Child: All worker threads have exited.
+[Wed May 20 08:28:01.073211 2020] [mpm_winnt:notice] [pid 13372:tid 592] AH00430: Parent: Child process 14492 exited successfully.

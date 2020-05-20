@@ -349,7 +349,18 @@ if($id==2020){
             GROUP BY courseid, MONTH(FROM_UNIXTIME(timecreated));";
     $login5=$DB->get_records_sql($sql5); 
 
-    
+    $sql6= "SELECT COUNT(userid) AS 'countusers',  
+             DATE_FORMAT(FROM_UNIXTIME(timecreated),'%D') AS 'day' 
+             FROM {logstore_standard_log} 
+             WHERE action='viewed' AND courseid=1 
+                   AND MONTH(FROM_UNIXTIME(timecreated))='5' 
+            GROUP BY DAY(FROM_UNIXTIME(timecreated));";
+    $login6=$DB->get_records_sql($sql6); 
+      echo count($login6).'<br>';
+    foreach($login6 as $f=>$va){
+        echo $va->day.'---'.$va->countusers.'<br>';
+    }
+
     // echo count($login5).'<br>';
      
    $label=array('January','February','March','April','May',
