@@ -365,16 +365,18 @@ if($id==2020){
      
    $label=array('January','February','March','April','May',
               'June','July','August','September','October','November','December');
+$labe2=array('1st','2nd','3rd','4th','5th','6th','7th','8th','9th','10th','11th','12th','13th','14th','15th','16th',
+              '17th','18th','19th','20th','21st','22nd','23rd');
     
-   $data=array(0,0,0,0,0,0,0,0,0,0,0,0);
+   $data=array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
 
    
    $X=0;
-    foreach ($login5 as $c5=>$val5) { 
-         if($val5->courseid==1 ){
+    foreach ($login6 as $c5=>$val5) { 
+       
            //  echo $val5->courseid.'<br>';
-            for($i=0;$i<12;$i++){
-                 if($val5->month==$label[$i]){
+            for($i=0;$i<23;$i++){
+                 if($val5->day==$labe2[$i]){
                      $X=$i;
                        $data[$i]=$val5->countusers;
                       // echo $label[$i]."------>".$data[$i].'<br>' ;
@@ -394,7 +396,7 @@ if($id==2020){
              }
            
            
-        }      
+          
          
      } 
      $sq="SELECT id,shortname,fullname FROM {course} WHERE id=1;";
@@ -412,7 +414,7 @@ if($id==2020){
          $chart->add_series($series);
    
    
-     $chart->set_labels($label);
+     $chart->set_labels($labe2);
      $yaxis = $chart->get_yaxis(0, true);
      $yaxis->set_label('numer of logins');
    
