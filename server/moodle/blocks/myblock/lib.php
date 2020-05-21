@@ -37,10 +37,9 @@ function block_myblock_course_context($courseid) { //get login page data
 
  function get_course_data( $id,$type,$uyear,$semester){  //get courses names from course table
 
-    global $CFG,$DB,$i,$sid;
-//     $q="DELETE FROM {logstore_standard_log} WHERE courseid >0;";
-//     $deletes=$DB->get_records_sql($q);
-    //echo $deletes.'<br>';
+    global $CFG,$DB,$i,$sid,$sc;
+    $sc=0;
+    $subject=array();
     $label=array();
     $i=0;
     $course=$DB->get_records_sql('SELECT id,fullname,shortname,idnumber,category FROM {course} ;');
@@ -62,24 +61,29 @@ if($id==2020){
                                                 if($value2->parent==$sid){
                                                        if($semester==1 && $value2->name=='1 st Semester')    {
                                                                 echo $value2->name.'--'.$value2->id.'<br>'; 
-
+                                                                
                                                                  foreach($course as $a=>$s1){
                                                                          if($s1->category==$value2->id){
-                                                                                echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
-                                                                                        echo '<br>';
+                                                                                 $subject[$sc]=$s1->id;
+                                                                                 $sc++;
+                                                                                // echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
+                                                                                //         echo '<br>';
                                                                          }
                                                                  }
-
+                                                                 get_login_data($subject);
                                                         break; 
                                                         }
                                                         if($semester==2 && $value2->name=='2 nd Semester'){
                                                                 echo $value2->name.'--'.$value2->id.'<br>'; 
                                                                 foreach($course as $a=>$s1){
                                                                         if($s1->category==$value2->id){
-                                                                               echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
-                                                                                       echo '<br>';
+                                                                                $subject[$sc]=$s1->id;
+                                                                                $sc++;
+                                                                                // echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
+                                                                                //        echo '<br>';
                                                                         }
                                                                 }
+                                                                get_login_data($subject);
                                                         break;    
                                                         }                                               
                                                 }
@@ -96,20 +100,26 @@ if($id==2020){
                                                                 echo $value2->name.'--'.$value2->id.'<br>'; 
                                                                 foreach($course as $a=>$s1){
                                                                         if($s1->category==$value2->id){
-                                                                               echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
-                                                                                       echo '<br>';
+                                                                                $subject[$sc]=$s1->id;
+                                                                                $sc++;
+                                                                                // echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
+                                                                                //        echo '<br>';
                                                                         }
                                                                 }
+                                                                get_login_data($subject);
                                                         break; 
                                                         }
                                                         if($semester==2 && $value2->name=='2 nd Semester'){
                                                                 echo $value2->name.'--'.$value2->id.'<br>'; 
                                                                 foreach($course as $a=>$s1){
                                                                         if($s1->category==$value2->id){
-                                                                               echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
-                                                                                       echo '<br>';
+                                                                                $subject[$sc]=$s1->id;
+                                                                                $sc++;
+                                                                                // echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
+                                                                                //        echo '<br>';
                                                                         }
                                                                 }
+                                                                get_login_data($subject);
                                                         break;    
                                                         }                                               
                                                 }
@@ -125,20 +135,26 @@ if($id==2020){
                                                                 echo $value2->name.'--'.$value2->id.'<br>'; 
                                                                 foreach($course as $a=>$s1){
                                                                         if($s1->category==$value2->id){
-                                                                               echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
-                                                                                       echo '<br>';
+                                                                                $subject[$sc]=$s1->id;
+                                                                                $sc++;
+                                                                                // echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
+                                                                                //        echo '<br>';
                                                                         }
                                                                 }
+                                                                get_login_data($subject);
                                                         break; 
                                                         }
                                                         if($semester==2 && $value2->name=='2 nd Semester'){
                                                                 echo $value2->name.'--'.$value2->id.'<br>'; 
                                                                 foreach($course as $a=>$s1){
                                                                         if($s1->category==$value2->id){
-                                                                               echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
-                                                                                       echo '<br>';
+                                                                                $subject[$sc]=$s1->id;
+                                                                                $sc++;
+                                                                                // echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
+                                                                                //        echo '<br>';
                                                                         }
                                                                 }
+                                                                get_login_data($subject);
                                                         break;    
                                                         }                                               
                                                 }
@@ -154,20 +170,26 @@ if($id==2020){
                                                                 echo $value2->name.'--'.$value2->id.'<br>'; 
                                                                 foreach($course as $a=>$s1){
                                                                         if($s1->category==$value2->id){
-                                                                               echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
-                                                                                       echo '<br>';
+                                                                                $subject[$sc]=$s1->id;
+                                                                                $sc++;
+                                                                                // echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
+                                                                                //        echo '<br>';
                                                                         }
                                                                 }
+                                                                get_login_data($subject);
                                                         break; 
                                                         }
                                                         if($semester==2 && $value2->name=='2 nd Semester'){
                                                                 echo $value2->name.'--'.$value2->id.'<br>'; 
                                                                 foreach($course as $a=>$s1){
                                                                         if($s1->category==$value2->id){
-                                                                               echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
-                                                                                       echo '<br>';
+                                                                                $subject[$sc]=$s1->id;
+                                                                                $sc++;
+                                                                                // echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
+                                                                                //        echo '<br>';
                                                                         }
                                                                 }
+                                                                get_login_data($subject);
                                                         break;    
                                                         }                                               
                                                 }
@@ -196,20 +218,26 @@ if($id==2020){
                                                                 echo $value2->name.'--'.$value2->id.'<br>'; 
                                                                 foreach($course as $b=>$s1){
                                                                         if($s1->category==$value2->id){
-                                                                               echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
-                                                                                       echo '<br>';
+                                                                                $subject[$sc]=$s1->id;
+                                                                                $sc++;
+                                                                                // echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
+                                                                                //        echo '<br>';
                                                                         }
                                                                 }
+                                                                get_login_data($subject);
                                                         break; 
                                                         }
                                                         if($semester==2 && $value2->name=='2 nd Semester'){
                                                                 echo $value2->name.'--'.$value2->id.'<br>'; 
                                                                 foreach($course as $b=>$s1){
                                                                         if($s1->category==$value2->id){
-                                                                               echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
-                                                                                       echo '<br>';
+                                                                                $subject[$sc]=$s1->id;
+                                                                                $sc++;
+                                                                                // echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
+                                                                                //        echo '<br>';
                                                                         }
                                                                 }
+                                                                get_login_data($subject);
                                                         break;    
                                                         }                                               
                                                 }
@@ -226,20 +254,26 @@ if($id==2020){
                                                                 echo $value2->name.'--'.$value2->id.'<br>';
                                                                 foreach($course as $b=>$s1){
                                                                         if($s1->category==$value2->id){
-                                                                               echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
-                                                                                       echo '<br>';
+                                                                                $subject[$sc]=$s1->id;
+                                                                                $sc++;
+                                                                                // echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
+                                                                                //        echo '<br>';
                                                                         }
-                                                                } 
+                                                                }
+                                                                get_login_data($subject);
                                                         break; 
                                                         }
                                                         if($semester==2 && $value2->name=='2 nd Semester'){
                                                                 echo $value2->name.'--'.$value2->id.'<br>'; 
                                                                 foreach($course as $b=>$s1){
                                                                         if($s1->category==$value2->id){
-                                                                               echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
-                                                                                       echo '<br>';
+                                                                                $subject[$sc]=$s1->id;
+                                                                                $sc++;
+                                                                                // echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
+                                                                                //        echo '<br>';
                                                                         }
                                                                 }
+                                                                get_login_data($subject);
                                                         break;    
                                                         }                                               
                                                 }
@@ -255,20 +289,26 @@ if($id==2020){
                                                                 echo $value2->name.'--'.$value2->id.'<br>'; 
                                                                 foreach($course as $b=>$s1){
                                                                         if($s1->category==$value2->id){
-                                                                               echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
-                                                                                       echo '<br>';
+                                                                                $subject[$sc]=$s1->id;
+                                                                                $sc++;
+                                                                                // echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
+                                                                                //        echo '<br>';
                                                                         }
                                                                 }
+                                                                get_login_data($subject);
                                                         break; 
                                                         }
                                                         if($semester==2 && $value2->name=='2 nd Semester'){
                                                                 echo $value2->name.'--'.$value2->id.'<br>'; 
                                                                 foreach($course as $b=>$s1){
                                                                         if($s1->category==$value2->id){
-                                                                               echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
-                                                                                       echo '<br>';
+                                                                                $subject[$sc]=$s1->id;
+                                                                                $sc++;
+                                                                                // echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
+                                                                                //        echo '<br>';
                                                                         }
                                                                 }
+                                                                get_login_data($subject);
                                                         break;    
                                                         }                                               
                                                 }
@@ -284,20 +324,26 @@ if($id==2020){
                                                                 echo $value2->name.'--'.$value2->id.'<br>'; 
                                                                 foreach($course as $b=>$s1){
                                                                         if($s1->category==$value2->id){
-                                                                               echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
-                                                                                       echo '<br>';
+                                                                                $subject[$sc]=$s1->id;
+                                                                                $sc++;
+                                                                                // echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
+                                                                                //        echo '<br>';
                                                                         }
                                                                 }
+                                                                get_login_data($subject);
                                                         break; 
                                                         }
                                                         if($semester==2 && $value2->name=='2 nd Semester'){
                                                                 echo $value2->name.'--'.$value2->id.'<br>';
                                                                 foreach($course as $b=>$s1){
                                                                         if($s1->category==$value2->id){
-                                                                               echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
-                                                                                       echo '<br>';
+                                                                                $subject[$sc]=$s1->id;
+                                                                                $sc++;
+                                                                                // echo $s1->id.'--'.$s1->fullname.'--'.$s1->shortname.'--'.$s1->idnumber.'--'.$s1->category ;
+                                                                                //        echo '<br>';
                                                                         }
-                                                                } 
+                                                                }
+                                                                get_login_data($subject);
                                                         break;    
                                                         }                                               
                                                 }
@@ -310,7 +356,7 @@ if($id==2020){
         }  
       }
 }
-      get_login_data();
+     
 
      
 //      foreach ($course as $data=>$value) {
@@ -333,72 +379,82 @@ if($id==2020){
      return $label;
  };
 
- function get_login_data(){
+ function get_login_data($s){
+
+
 
      global $DB,$countuser,$countr,$X, $OUTPUT,$name;
      $countuser=0;
      $countr=0;
      $name='';
- 
+            foreach($s as $a){
+                    echo $a.'<br>';
+            }
 
-     $sql5= "SELECT COUNT(userid) AS 'countusers', courseid, 
-             DATE_FORMAT(FROM_UNIXTIME(timecreated),'%M') AS 'month' 
-             FROM {logstore_standard_log} 
-             WHERE action='viewed'  
-                   AND YEAR(FROM_UNIXTIME(timecreated))='2020' 
-            GROUP BY courseid, MONTH(FROM_UNIXTIME(timecreated));";
-    $login5=$DB->get_records_sql($sql5); 
+//      $sql5= "SELECT COUNT(userid) AS 'countusers', courseid, 
+//              DATE_FORMAT(FROM_UNIXTIME(timecreated),'%M') AS 'month' 
+//              FROM {logstore_standard_log} 
+//              WHERE action='viewed'  
+//                    AND YEAR(FROM_UNIXTIME(timecreated))='2020' 
+//             GROUP BY courseid, MONTH(FROM_UNIXTIME(timecreated));";
+//     $login5=$DB->get_records_sql($sql5); 
 
-    $sql6= "SELECT COUNT(userid) AS 'countusers',  
+    $sql6= "SELECT COUNT(userid) AS 'countusers',  courseid,
              DATE_FORMAT(FROM_UNIXTIME(timecreated),'%D') AS 'day' 
              FROM {logstore_standard_log} 
-             WHERE action='viewed' AND courseid=1 
+             WHERE action='viewed'
                    AND MONTH(FROM_UNIXTIME(timecreated))='5' 
-            GROUP BY DAY(FROM_UNIXTIME(timecreated));";
+            GROUP BY courseid, DAY(FROM_UNIXTIME(timecreated));";
     $login6=$DB->get_records_sql($sql6); 
       echo count($login6).'<br>';
     foreach($login6 as $f=>$va){
-        echo $va->day.'---'.$va->countusers.'<br>';
+        foreach($s as $a){
+                if($va->courseid==$a){
+                        echo $va->courseid.'--'.$va->day.'---'.$va->countusers.'<br>';
+                }
+        }
+
+        
     }
 
     // echo count($login5).'<br>';
      
-   $label=array('January','February','March','April','May',
-              'June','July','August','September','October','November','December');
+  // $label=array('January','February','March','April','May',
+        //      'June','July','August','September','October','November','December');
 $labe2=array('1st','2nd','3rd','4th','5th','6th','7th','8th','9th','10th','11th','12th','13th','14th','15th','16th',
-              '17th','18th','19th','20th','21st','22nd','23rd');
+              '17th','18th','19th','20th','21st','22nd','23rd','24th','25th','26th','27th','28th','29th','30th','31st');
     
-   $data=array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+   $data=array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
 
    
-   $X=0;
-    foreach ($login6 as $c5=>$val5) { 
-       
-           //  echo $val5->courseid.'<br>';
-            for($i=0;$i<23;$i++){
-                 if($val5->day==$labe2[$i]){
-                     $X=$i;
-                       $data[$i]=$val5->countusers;
-                      // echo $label[$i]."------>".$data[$i].'<br>' ;
-                      // echo $i.'<br>';
-                 }
-                 else{
-                     if($i!=$X){
-                         $data[$i]=0;
-                    // echo $label[$i]."------>".$data[$i].'<br>' ;
-                    // echo $i.'<br>';
-                     }else{
-                         //echo $label[$i]."------>".$data[$i].'<br>' ;
-                        // echo $i.'<br>';
-                     }
+//    $X=0;
+//     foreach ($login6 as $c5=>$val5) { 
+//             echo $val5->day.'--'.$val5->countusers.'<br>';
+//            //  echo $val5->courseid.'<br>';
+//             for($i=0;$i<23;$i++){
+//                  if($val5->day==$labe2[$i]){
+//                      $X=$i;
+//                        $data[$i]=$val5->countusers;
+//                    // break;
+//                       // echo $label[$i]."------>".$data[$i].'<br>' ;
+//                       // echo $i.'<br>';
+//                  }
+//                  else{
+//                      if(0==$X){
+//                          $data[$i]=0;
+//                     // echo $label[$i]."------>".$data[$i].'<br>' ;
+//                     // echo $i.'<br>';
+//                      }else{
+//                          //echo $label[$i]."------>".$data[$i].'<br>' ;
+//                         // echo $i.'<br>';
+//                      }
                    
-                 }
-             }
-           
-           
-          
+//                  }
+//              }            
          
-     } 
+//      } 
+
+
      $sq="SELECT id,shortname,fullname FROM {course} WHERE id=1;";
      $d=$DB->get_records_sql($sq); 
      foreach($d as $q=>$short){
