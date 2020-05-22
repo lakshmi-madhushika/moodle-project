@@ -387,9 +387,45 @@ if($id==2020){
      $countuser=0;
      $countr=0;
      $name='';
+     $data=array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+     $labe2=array('1st','2nd','3rd','4th','5th','6th','7th','8th','9th','10th','11th','12th','13th','14th','15th','16th',
+              '17th','18th','19th','20th','21st','22nd','23rd','24th','25th','26th','27th','28th','29th','30th','31st');
+  // $i=0;
             foreach($s as $a){
                     echo $a.'<br>';
-            }
+                    foreach($labe2 as $date){
+                        $sql6= "SELECT   COUNT(userid) AS 'countusers' ,
+                        DATE_FORMAT(FROM_UNIXTIME(timecreated),'%D') AS 'day', courseid           
+                        FROM {logstore_standard_log} 
+                        WHERE action='viewed' AND courseid=$a
+                              AND MONTH(FROM_UNIXTIME(timecreated))='5' AND  DAY(FROM_UNIXTIME(timecreated))='$date' ;";
+                       $login6=$DB->get_records_sql($sql6); 
+                      // $i++;
+                       foreach($login6 as $f=>$va){
+                               if($va->countusers!=0){
+                                echo $va->countusers.'--'.$va->day.'---'.$va->courseid.'<br>';
+                               }
+                            
+                       }
+
+                    }
+                                       
+            
+        }
+
+
+
+        $sql7= "SELECT   COUNT(userid) AS 'countusers' , courseid  ,
+        DATE_FORMAT(FROM_UNIXTIME(timecreated),'%D') AS 'day'         
+        FROM {logstore_standard_log} 
+        WHERE action='viewed' AND courseid=145
+              AND MONTH(FROM_UNIXTIME(timecreated))='5' AND  DAY(FROM_UNIXTIME(timecreated))='21st' ;";
+       $login7=$DB->get_records_sql($sql7); 
+      // echo count($login7).'<br>';
+       foreach($login7 as $j=>$va){
+          //  echo $va->countusers.'--'.$va->day.'---'.$va->courseid.'<br>';
+       }
+
 
 //      $sql5= "SELECT COUNT(userid) AS 'countusers', courseid, 
 //              DATE_FORMAT(FROM_UNIXTIME(timecreated),'%M') AS 'month' 
@@ -399,32 +435,33 @@ if($id==2020){
 //             GROUP BY courseid, MONTH(FROM_UNIXTIME(timecreated));";
 //     $login5=$DB->get_records_sql($sql5); 
 
-    $sql6= "SELECT COUNT(userid) AS 'countusers',  courseid,
-             DATE_FORMAT(FROM_UNIXTIME(timecreated),'%D') AS 'day' 
-             FROM {logstore_standard_log} 
-             WHERE action='viewed'
-                   AND MONTH(FROM_UNIXTIME(timecreated))='5' 
-            GROUP BY courseid, DAY(FROM_UNIXTIME(timecreated));";
-    $login6=$DB->get_records_sql($sql6); 
-      echo count($login6).'<br>';
-    foreach($login6 as $f=>$va){
-        foreach($s as $a){
-                if($va->courseid==$a){
-                        echo $va->courseid.'--'.$va->day.'---'.$va->countusers.'<br>';
-                }
-        }
+//     $sql6= "SELECT   COUNT(userid) AS 'countusers' ,
+//              DATE_FORMAT(FROM_UNIXTIME(timecreated),'%D') AS 'day', courseid           
+//              FROM {logstore_standard_log} 
+//              WHERE action='viewed' AND courseid=9
+//                    AND MONTH(FROM_UNIXTIME(timecreated))='5' 
+//             GROUP BY DAY(FROM_UNIXTIME(timecreated));";
+//     $login6=$DB->get_records_sql($sql6); 
+//       echo count($login6).'<br>';
+//     foreach($login6 as $f=>$va){
+//         echo $va->countusers.'--'.$va->day.'---'.$va->courseid.'<br>';
+//         // foreach($s as $a){
+//         //         if($va->courseid==$a){
+//         //                 echo $va->courseid.'--'.$va->day.'---'.$va->countusers.'<br>';
+//         //         }
+//         // }
 
         
-    }
+//     }
 
     // echo count($login5).'<br>';
      
   // $label=array('January','February','March','April','May',
         //      'June','July','August','September','October','November','December');
-$labe2=array('1st','2nd','3rd','4th','5th','6th','7th','8th','9th','10th','11th','12th','13th','14th','15th','16th',
-              '17th','18th','19th','20th','21st','22nd','23rd','24th','25th','26th','27th','28th','29th','30th','31st');
+// $labe2=array('1st','2nd','3rd','4th','5th','6th','7th','8th','9th','10th','11th','12th','13th','14th','15th','16th',
+//               '17th','18th','19th','20th','21st','22nd','23rd','24th','25th','26th','27th','28th','29th','30th','31st');
     
-   $data=array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+  
 
    
 //    $X=0;
