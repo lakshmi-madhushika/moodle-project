@@ -12,9 +12,9 @@ $id       = required_param('year', PARAM_INT);
 $type = required_param('type', PARAM_INT);
 $uyear   = required_param('uyear',PARAM_INT);
 $semester=required_param('semester',PARAM_INT);
- $page     = optional_param('page', 0, PARAM_INT); 
- $perpage  = optional_param('perpage', DEFAULT_PAGE_SIZE, PARAM_INT); 
- $group    = optional_param('group', 0, PARAM_INT); 
+$page     = optional_param('page', 0, PARAM_INT); 
+$perpage  = optional_param('perpage', DEFAULT_PAGE_SIZE, PARAM_INT); 
+$group    = optional_param('group', 0, PARAM_INT); 
 
 $PAGE->set_url(
      '/blocks/myblock/graph.php',

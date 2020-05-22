@@ -1333,3 +1333,34 @@ PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Fri May 22 10:57:34.492434 2020] [ssl:warn] [pid 12492:tid 704] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Fri May 22 10:57:34.522793 2020] [mpm_winnt:notice] [pid 12492:tid 704] AH00354: Child: Starting 150 worker threads.
+[Fri May 22 14:34:20.321449 2020] [mpm_winnt:notice] [pid 4352:tid 688] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 22 14:34:23.893916 2020] [mpm_winnt:notice] [pid 12492:tid 704] AH00364: Child: All worker threads have exited.
+[Fri May 22 14:34:28.558642 2020] [mpm_winnt:notice] [pid 4352:tid 688] AH00430: Parent: Child process 12492 exited successfully.
+[Fri May 22 16:30:30.318644 2020] [ssl:warn] [pid 11244:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 22 16:30:30.731687 2020] [ssl:warn] [pid 11244:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Fri May 22 16:30:33.639729 2020] [mpm_winnt:notice] [pid 11244:tid 672] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Fri May 22 16:30:33.639729 2020] [mpm_winnt:notice] [pid 11244:tid 672] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Fri May 22 16:30:33.639729 2020] [core:notice] [pid 11244:tid 672] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Fri May 22 16:30:33.643719 2020] [mpm_winnt:notice] [pid 11244:tid 672] AH00418: Parent: Created child process 10484
+[Fri May 22 16:30:34.831734 2020] [ssl:warn] [pid 10484:tid 720] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 22 16:30:35.111385 2020] [ssl:warn] [pid 10484:tid 720] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Fri May 22 16:30:35.143972 2020] [mpm_winnt:notice] [pid 10484:tid 720] AH00354: Child: Starting 150 worker threads.
+[Fri May 22 17:59:38.828672 2020] [mpm_winnt:notice] [pid 11244:tid 672] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 22 17:59:40.832114 2020] [mpm_winnt:notice] [pid 10484:tid 720] AH00364: Child: All worker threads have exited.
+[Fri May 22 17:59:41.040419 2020] [mpm_winnt:notice] [pid 11244:tid 672] AH00430: Parent: Child process 10484 exited successfully.
+[Fri May 22 18:00:57.994216 2020] [ssl:warn] [pid 13084:tid 712] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 22 18:00:58.202190 2020] [ssl:warn] [pid 13084:tid 712] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Fri May 22 18:00:58.234304 2020] [mpm_winnt:notice] [pid 13084:tid 712] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Fri May 22 18:00:58.234304 2020] [mpm_winnt:notice] [pid 13084:tid 712] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Fri May 22 18:00:58.234304 2020] [core:notice] [pid 13084:tid 712] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Fri May 22 18:00:58.237294 2020] [mpm_winnt:notice] [pid 13084:tid 712] AH00418: Parent: Created child process 12984
+[Fri May 22 18:00:59.284333 2020] [ssl:warn] [pid 12984:tid 704] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 22 18:00:59.450005 2020] [ssl:warn] [pid 12984:tid 704] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Fri May 22 18:00:59.478877 2020] [mpm_winnt:notice] [pid 12984:tid 704] AH00354: Child: Starting 150 worker threads.
+[Fri May 22 18:05:25.541174 2020] [mpm_winnt:notice] [pid 13084:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 22 18:05:27.542595 2020] [mpm_winnt:notice] [pid 12984:tid 704] AH00364: Child: All worker threads have exited.
+[Fri May 22 18:05:27.585218 2020] [mpm_winnt:notice] [pid 13084:tid 712] AH00430: Parent: Child process 12984 exited successfully.
