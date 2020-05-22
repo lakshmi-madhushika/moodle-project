@@ -61,9 +61,9 @@ if($semester==1){
 
 
 echo'<div>';
-report_log_print_graph($id,$type,$uyear,$semester) ;
+get_course_data($id,$type,$uyear,$semester) ;
 echo '</div>';
 
 echo $OUTPUT->container_end();
 
- echo $OUTPUT->footer();
+echo $OUTPUT->footer();
