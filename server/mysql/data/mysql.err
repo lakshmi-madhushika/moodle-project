@@ -8086,3 +8086,35 @@ Version: '10.1.16-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2020-05-23 16:55:21 8908 [ERROR] Unknown/unsupported storage engine: innodb
 2020-05-23 16:55:21 8908 [ERROR] Aborting
 
+2020-05-23 16:57:03 6340 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-05-23 16:57:03 6340 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-05-23 16:57:03 6340 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-05-23 16:57:03 6340 [Note] InnoDB: Memory barrier is not used
+2020-05-23 16:57:03 6340 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-05-23 16:57:03 6340 [Note] InnoDB: Using generic crc32 instructions
+2020-05-23 16:57:03 6340 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2020-05-23 16:57:03 6340 [Note] InnoDB: Completed initialization of buffer pool
+2020-05-23 16:57:03 6340 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2020-05-23 16:57:03 6340 [ERROR] InnoDB: The system tablespace must be writable!
+2020-05-23 16:57:03 6340 [ERROR] Plugin 'InnoDB' init function returned error.
+2020-05-23 16:57:03 6340 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2020-05-23 16:57:03 6340 [Note] Plugin 'FEEDBACK' is disabled.
+2020-05-23 16:57:03 6340 [ERROR] Unknown/unsupported storage engine: innodb
+2020-05-23 16:57:03 6340 [ERROR] Aborting
+
+2020-05-23 16:57:32 10592 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-05-23 16:57:32 10592 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-05-23 16:57:32 10592 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-05-23 16:57:32 10592 [Note] InnoDB: Memory barrier is not used
+2020-05-23 16:57:32 10592 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-05-23 16:57:32 10592 [Note] InnoDB: Using generic crc32 instructions
+2020-05-23 16:57:32 10592 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2020-05-23 16:57:32 10592 [Note] InnoDB: Completed initialization of buffer pool
+2020-05-23 16:57:32 10592 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2020-05-23 16:57:32 10592 [ERROR] InnoDB: The system tablespace must be writable!
+2020-05-23 16:57:32 10592 [ERROR] Plugin 'InnoDB' init function returned error.
+2020-05-23 16:57:32 10592 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2020-05-23 16:57:32 10592 [Note] Plugin 'FEEDBACK' is disabled.
+2020-05-23 16:57:32 10592 [ERROR] Unknown/unsupported storage engine: innodb
+2020-05-23 16:57:32 10592 [ERROR] Aborting
+
