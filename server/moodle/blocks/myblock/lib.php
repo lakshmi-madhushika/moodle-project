@@ -20,7 +20,7 @@
                                 
                 $course=$DB->get_records_sql('SELECT id,fullname,shortname,idnumber,category FROM {course} ;');
                 $categorys=$DB->get_records_sql('SELECT id,name,parent,coursecount FROM {course_categories};');
-        
+                
                 if($id==2020){ 
                         if($type==1){ //SCS        
                                 foreach ($categorys as $data1=>$value1) {
@@ -298,14 +298,25 @@
         function get_login_data($s){
 
                 global $DB,$countuser,$countr,$X, $OUTPUT,$name;
-
                
                 $countuser=0;
                 $countr=0;
-                $name='';    
-                $data=array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
-                $labe2=array('1st','2nd','3rd','4th','5th','6th','7th','8th','9th','10th','11th','12th','13th','14th','15th','16th',
-                        '    17th','18th','19th','20th','21st','22nd','23rd','24th','25th','26th','27th','28th','29th','30th','31st');
+                $name='';  
+
+                $data=array();
+                $labe2=array();
+
+                $date=date("Y-m-d");
+                $d = new DateTime($date);
+                $d->modify('-30 days');
+                for($i=0;$i<=30;$i++){                                  
+                        $date=$d->format('d-m-Y');    
+                        $newDate = date("d M Y", strtotime($date));
+                        $new_date = date('dS F Y', strtotime($newDate));
+                        $labe2[$i]=$new_date;
+                        $d->modify('+1 days');                                
+                }                               
+                        
                 $chart = new \core\chart_line();   
                 $cours=$DB->get_records_sql('SELECT id,fullname,idnumber FROM {course}');
 
@@ -313,9 +324,9 @@
                         $X=0;
                         echo $a.'<br>';
                         foreach($labe2 as $date){
-                                $sql6= "SELECT   COUNT(userid) AS 'countusers' ,DATE_FORMAT(FROM_UNIXTIME(timecreated),'%D') AS 'day', courseid           
+                                $sql6= "SELECT   COUNT(userid) AS 'countusers' ,DATE_FORMAT(FROM_UNIXTIME(timecreated),'%D %M %Y') AS 'day', courseid           
                                         FROM {logstore_standard_log} 
-                                        WHERE action='viewed' AND courseid=$a AND MONTH(FROM_UNIXTIME(timecreated))='5' AND  DAY(FROM_UNIXTIME(timecreated))='$date' ;";
+                                        WHERE action='viewed' AND courseid=$a AND DATE_FORMAT(FROM_UNIXTIME(timecreated),'%D %M %Y')='$date';";
                                 $login6=$DB->get_records_sql($sql6); 
                                 
                                 foreach($login6 as $f=>$va){
@@ -334,7 +345,7 @@
                                         $name=$valu->fullname.' ( '.$valu->idnumber.' )' ;
                                 }
                         }
-                       $series = new \core\chart_series($name.'<br>', $data);
+                       $series = new \core\chart_series($name, $data);
                        $chart->add_series($series);
                       
                 } 
@@ -342,6 +353,10 @@
                 $chart->set_labels($labe2);
                 $yaxis = $chart->get_yaxis(0, true);
                 $yaxis->set_label('numer of logins');
+                $yaxis->set_stepsize(max(1, round(max($series) / 10)));
+
                 
                 echo $OUTPUT->render($chart);                  
         }
+
+

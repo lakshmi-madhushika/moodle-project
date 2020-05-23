@@ -115,6 +115,7 @@
 
     echo '</div>';
 
+    
 
     echo $OUTPUT->container_end();
 
