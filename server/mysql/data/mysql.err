@@ -8070,3 +8070,19 @@ Version: '10.1.16-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2020-05-23 16:52:51 10844 [ERROR] Unknown/unsupported storage engine: innodb
 2020-05-23 16:52:51 10844 [ERROR] Aborting
 
+2020-05-23 16:55:21 8908 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-05-23 16:55:21 8908 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-05-23 16:55:21 8908 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-05-23 16:55:21 8908 [Note] InnoDB: Memory barrier is not used
+2020-05-23 16:55:21 8908 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-05-23 16:55:21 8908 [Note] InnoDB: Using generic crc32 instructions
+2020-05-23 16:55:21 8908 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2020-05-23 16:55:21 8908 [Note] InnoDB: Completed initialization of buffer pool
+2020-05-23 16:55:21 8908 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2020-05-23 16:55:21 8908 [ERROR] InnoDB: The system tablespace must be writable!
+2020-05-23 16:55:21 8908 [ERROR] Plugin 'InnoDB' init function returned error.
+2020-05-23 16:55:21 8908 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2020-05-23 16:55:21 8908 [Note] Plugin 'FEEDBACK' is disabled.
+2020-05-23 16:55:21 8908 [ERROR] Unknown/unsupported storage engine: innodb
+2020-05-23 16:55:21 8908 [ERROR] Aborting
+
