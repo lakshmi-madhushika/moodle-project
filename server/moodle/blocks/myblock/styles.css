@@ -5,15 +5,15 @@ ul {
     background: white;
   }
   
-  ul li {
+ul li {
     display: block;
     position: relative;
     float: left;
     background:rgb(251, 251, 252);
   }
-  li ul { display: none; }
+li ul { display: none; }
   
-  ul li a {
+ul li a {
     display: block;
     padding: 1em;
     text-decoration: none;
@@ -21,24 +21,24 @@ ul {
     color: rgb(8, 8, 8);
   }
   
-  ul li a:hover { background:grey; }
-  li:hover > ul {
+ul li a:hover { background:grey; }
+li:hover > ul {
     display: block;
     position:absolute;
   }
   
-  li:hover li { float: none; }
+li:hover li { float: none; }
   
-  li:hover a { background:rgb(251, 251, 252); }
+li:hover a { background:rgb(251, 251, 252); }
   
-  li:hover li a:hover { background:white; }
+li:hover li a:hover { background:white; }
   
-  .main-navigation li ul li { border-top: 0; }
-  ul ul  {
+.main-navigation li ul li { border-top: 0; }
+ul ul  {
     left: 70%;
     top: 10;
   }
-  ul ul ul {
+ul ul ul {
     left: 100%;
     top: 0;
   }

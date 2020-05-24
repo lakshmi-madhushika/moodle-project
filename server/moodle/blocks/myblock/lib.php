@@ -2,305 +2,51 @@
 
         require_once(dirname(__FILE__) . '/../../config.php');
 
-
-        function block_myblock_course_context($courseid) { //get login page data
+        // get page context according to id
+        function block_myblock_course_context($courseid) { 
                 if (class_exists('context_course')) {
                         return context_course::instance($courseid);
                 } else {
                         return get_context_instance(CONTEXT_COURSE, $courseid);
                 }
         }
-        
-        function get_course_data( $id,$type,$uyear,$semester){  //get courses names from course table
 
-                global $DB,$i,$sid,$sc;
-                $sc=0;
-                $i=0;
-                $subject=array();
-                                
-                $course=$DB->get_records_sql('SELECT id,fullname,shortname,idnumber,category FROM {course} ;');
-                $categorys=$DB->get_records_sql('SELECT id,name,parent,coursecount FROM {course_categories};');
-                
-                if($id==2020){ 
-                        if($type==1){ //SCS        
-                                foreach ($categorys as $data1=>$value1) {
-                                        if($value1->name=='SCS'){
-                                                echo $value1->name.'--';
-                                                $sid=$value1->id;                       
-                                        }else{
-                                                if($value1->parent==$sid){                                        
-                                                        if($uyear==1 && $value1->name=='1 st Year'){
-                                                                echo $value1->name.'--';
-                                                                $sid=$value1->id;
-                                                                foreach($categorys as $data2=>$value2){
-                                                                        if($value2->parent==$sid){
-                                                                                if($semester==1 && $value2->name=='1 st Semester'){
-                                                                                        echo $value2->name.'--'.$value2->id.'<br>';                                                                                         
-                                                                                        foreach($course as $a=>$s1){
-                                                                                                if($s1->category==$value2->id){
-                                                                                                        $subject[$sc]=$s1->id;
-                                                                                                        $sc++;
-                                                                                                }
-                                                                                        }
-                                                                                        return get_login_data($subject);
-                                                                                        break; 
-                                                                                }
-                                                                                if($semester==2 && $value2->name=='2 nd Semester'){
-                                                                                        echo $value2->name.'--'.$value2->id.'<br>'; 
-                                                                                        foreach($course as $a=>$s1){
-                                                                                                if($s1->category==$value2->id){
-                                                                                                        $subject[$sc]=$s1->id;
-                                                                                                        $sc++;
-                                                                                                }
-                                                                                        }
-                                                                                        return get_login_data($subject);
-                                                                                        break;    
-                                                                                }                                               
-                                                                        }
-                                                                }
-                                                                break;                                                
-                                                        }
-                                                        elseif($uyear==2 && $value1->name=='2 nd Year'){
-                                                                echo $value1->name.'--';
-                                                                $sid=$value1->id;
-                                                                foreach($categorys as $data2=>$value2){
-                                                                        if($value2->parent==$sid){
-                                                                                if($semester==1 && $value2->name=='1 st Semester'){
-                                                                                        echo $value2->name.'--'.$value2->id.'<br>'; 
-                                                                                        foreach($course as $a=>$s1){
-                                                                                                if($s1->category==$value2->id){
-                                                                                                        $subject[$sc]=$s1->id;
-                                                                                                        $sc++;                                                                                               
-                                                                                                }
-                                                                                        }
-                                                                                        return get_login_data($subject);
-                                                                                        break; 
-                                                                                }
-                                                                                if($semester==2 && $value2->name=='2 nd Semester'){
-                                                                                        echo $value2->name.'--'.$value2->id.'<br>'; 
-                                                                                        foreach($course as $a=>$s1){
-                                                                                                if($s1->category==$value2->id){
-                                                                                                        $subject[$sc]=$s1->id;
-                                                                                                        $sc++;                                                                                               
-                                                                                                }
-                                                                                        }
-                                                                                        return get_login_data($subject);
-                                                                                        break;    
-                                                                                }                                               
-                                                                        }
-                                                                }
-                                                                break;
-                                                        }
-                                                        elseif($uyear==3 && $value1->name=='3 rd Year'){
-                                                                echo $value1->name.'--';
-                                                                $sid=$value1->id;
-                                                                foreach($categorys as $data2=>$value2){
-                                                                        if($value2->parent==$sid){
-                                                                                if($semester==1 && $value2->name=='1 st Semester'){
-                                                                                        echo $value2->name.'--'.$value2->id.'<br>'; 
-                                                                                        foreach($course as $a=>$s1){
-                                                                                                if($s1->category==$value2->id){
-                                                                                                        $subject[$sc]=$s1->id;
-                                                                                                        $sc++;
-                                                                                                }
-                                                                                        }
-                                                                                        return get_login_data($subject);
-                                                                                        break; 
-                                                                                }
-                                                                                if($semester==2 && $value2->name=='2 nd Semester'){
-                                                                                        echo $value2->name.'--'.$value2->id.'<br>'; 
-                                                                                        foreach($course as $a=>$s1){
-                                                                                                if($s1->category==$value2->id){
-                                                                                                        $subject[$sc]=$s1->id;
-                                                                                                        $sc++;
-                                                                                                }
-                                                                                        }
-                                                                                        return get_login_data($subject);
-                                                                                        break;    
-                                                                                }                                               
-                                                                        }
-                                                                }
-                                                                break;
-                                                        }
-                                                        elseif($uyear==4 && $value1->name=='4 th Year'){
-                                                                echo $value1->name.'--';
-                                                                $sid=$value1->id;
-                                                                foreach($categorys as $data2=>$value2){
-                                                                        if($value2->parent==$sid){
-                                                                                if($semester==1 && $value2->name=='1 st Semester')    {
-                                                                                        echo $value2->name.'--'.$value2->id.'<br>'; 
-                                                                                        foreach($course as $a=>$s1){
-                                                                                                if($s1->category==$value2->id){
-                                                                                                        $subject[$sc]=$s1->id;
-                                                                                                        $sc++;
-                                                                                                }
-                                                                                        }
-                                                                                        return get_login_data($subject);
-                                                                                        break; 
-                                                                                }
-                                                                                if($semester==2 && $value2->name=='2 nd Semester'){
-                                                                                        echo $value2->name.'--'.$value2->id.'<br>'; 
-                                                                                        foreach($course as $a=>$s1){
-                                                                                                if($s1->category==$value2->id){
-                                                                                                        $subject[$sc]=$s1->id;
-                                                                                                        $sc++;
-                                                                                                }
-                                                                                        }
-                                                                                        return get_login_data($subject);
-                                                                                        break;    
-                                                                                }                                               
-                                                                        }
-                                                                }
-                                                                break;
-                                                        }                                                
-                                                }
-                                        }             
-                                }   
-                        }else{ //IS
-                                foreach ($categorys as $data=>$value) {
-                                        if($value->name=='IS'){
-                                                echo $value->name.'--';
-                                                $sid=$value->id;                       
-                                        }else{
-                                                if($value->parent==$sid){                                        
-                                                        if($uyear==1 && $value->name=='1 st Year'){
-                                                                echo $value->name.'--';
-                                                                $sid=$value->id;
-                                                                foreach($categorys as $data2=>$value2){
-                                                                        if($value2->parent==$sid){
-                                                                                if($semester==1 && $value2->name=='1 st Semester'){
-                                                                                        echo $value2->name.'--'.$value2->id.'<br>'; 
-                                                                                        foreach($course as $b=>$s1){
-                                                                                                if($s1->category==$value2->id){
-                                                                                                        $subject[$sc]=$s1->id;
-                                                                                                        $sc++;
-                                                                                                }
-                                                                                        }
-                                                                                        return get_login_data($subject);
-                                                                                        break; 
-                                                                                }
-                                                                                if($semester==2 && $value2->name=='2 nd Semester'){
-                                                                                        echo $value2->name.'--'.$value2->id.'<br>'; 
-                                                                                        foreach($course as $b=>$s1){
-                                                                                                if($s1->category==$value2->id){
-                                                                                                        $subject[$sc]=$s1->id;
-                                                                                                        $sc++;
-                                                                                                }
-                                                                                        }
-                                                                                        return get_login_data($subject);
-                                                                                        break;    
-                                                                                }                                               
-                                                                        }
-                                                                }
-                                                                break;                                                
-                                                        }
-                                                        elseif($uyear==2 && $value->name=='2 nd Year'){
-                                                                echo $value->name.'--';
-                                                                $sid=$value->id;
-                                                                foreach($categorys as $data2=>$value2){
-                                                                        if($value2->parent==$sid){
-                                                                                if($semester==1 && $value2->name=='1 st Semester'){
-                                                                                        echo $value2->name.'--'.$value2->id.'<br>';
-                                                                                        foreach($course as $b=>$s1){
-                                                                                                if($s1->category==$value2->id){
-                                                                                                        $subject[$sc]=$s1->id;
-                                                                                                        $sc++;
-                                                                                                }
-                                                                                        }
-                                                                                        get_login_data($subject);
-                                                                                        break; 
-                                                                                }
-                                                                                if($semester==2 && $value2->name=='2 nd Semester'){
-                                                                                        echo $value2->name.'--'.$value2->id.'<br>'; 
-                                                                                        foreach($course as $b=>$s1){
-                                                                                                if($s1->category==$value2->id){
-                                                                                                        $subject[$sc]=$s1->id;
-                                                                                                        $sc++;
-                                                                                                }
-                                                                                        }
-                                                                                        return get_login_data($subject);
-                                                                                        break;    
-                                                                                }                                               
-                                                                        }
-                                                                }
-                                                                break;
-                                                        }
-                                                        elseif($uyear==3 && $value->name=='3 rd Year'){
-                                                                echo $value->name.'--';
-                                                                $sid=$value->id;
-                                                                foreach($categorys as $data2=>$value2){
-                                                                        if($value2->parent==$sid){
-                                                                                if($semester==1 && $value2->name=='1 st Semester'){
-                                                                                        echo $value2->name.'--'.$value2->id.'<br>'; 
-                                                                                        foreach($course as $b=>$s1){
-                                                                                                if($s1->category==$value2->id){
-                                                                                                        $subject[$sc]=$s1->id;
-                                                                                                        $sc++;
-                                                                                                }
-                                                                                        }
-                                                                                        return get_login_data($subject);
-                                                                                        break; 
-                                                                                }
-                                                                                if($semester==2 && $value2->name=='2 nd Semester'){
-                                                                                        echo $value2->name.'--'.$value2->id.'<br>'; 
-                                                                                        foreach($course as $b=>$s1){
-                                                                                                if($s1->category==$value2->id){
-                                                                                                        $subject[$sc]=$s1->id;
-                                                                                                        $sc++;
-                                                                                                }
-                                                                                        }
-                                                                                        return get_login_data($subject);
-                                                                                        break;    
-                                                                                }                                               
-                                                                        }
-                                                                }
-                                                                break;
-                                                        }
-                                                        elseif($uyear==4 && $value->name=='4 th Year'){
-                                                                echo $value->name.'--';
-                                                                $sid=$value->id;
-                                                                foreach($categorys as $data2=>$value2){
-                                                                        if($value2->parent==$sid){
-                                                                                if($semester==1 && $value2->name=='1 st Semester'){
-                                                                                        echo $value2->name.'--'.$value2->id.'<br>'; 
-                                                                                        foreach($course as $b=>$s1){
-                                                                                                if($s1->category==$value2->id){
-                                                                                                        $subject[$sc]=$s1->id;
-                                                                                                        $sc++;
-                                                                                                }
-                                                                                        }
-                                                                                        return get_login_data($subject);
-                                                                                        break; 
-                                                                                }
-                                                                                if($semester==2 && $value2->name=='2 nd Semester'){
-                                                                                        echo $value2->name.'--'.$value2->id.'<br>';
-                                                                                        foreach($course as $b=>$s1){
-                                                                                                if($s1->category==$value2->id){
-                                                                                                        $subject[$sc]=$s1->id;
-                                                                                                        $sc++;
-                                                                                                }
-                                                                                        }
-                                                                                        return get_login_data($subject);
-                                                                                        break;    
-                                                                                }                                               
-                                                                        }
-                                                                }
-                                                                break;
-                                                        }                                                
-                                                }
-                                        }
-                                }  
-                        }
-                }     
+        // selcect category id
+        function get_course_data( $id,$type,$uyear,$semester){                
+                echo $id.': '; echo $type.': ';echo $uyear.': '; echo $semester.': ';
+
+                global $DB,$sid,$sc;
+
+                $sc=0;                
+                $subject=array();                              
                
+                $sql=  "SELECT id FROM {course_categories} WHERE parent
+                        IN(SELECT id FROM {course_categories} WHERE parent 
+                           IN(SELECT id FROM {course_categories} WHERE  parent 
+                              IN(SELECT id FROM {course_categories}  WHERE name='$id')AND name='$type')AND name='$uyear')
+                        AND name='$semester';";
+
+                $categorys=$DB->get_records_sql($sql);
+                foreach($categorys as $top=>$value){
+                        $sid=$value->id;
+                        echo $value->id.'<br>';
+                }
+
+                $sql1="SELECT id FROM {course} WHERE category='$sid';";
+                $course=$DB->get_records_sql($sql1);
+                foreach($course as $sub=>$value){
+                        $subject[$sc]=$value->id;
+                        $sc++;
+                }
+
+                get_login_data($subject);                        
         };
-
+        
+        //draw graph according to views of subject 
         function get_login_data($s){
-
-                global $DB,$countuser,$countr,$X, $OUTPUT,$name;
+                global $DB,$countuser,$X, $OUTPUT,$name;
                
                 $countuser=0;
-                $countr=0;
                 $name='';  
 
                 $data=array();
@@ -322,23 +68,17 @@
 
                 foreach($s as $a){
                         $X=0;
-                        echo $a.'<br>';
                         foreach($labe2 as $date){
-                                $sql6= "SELECT   COUNT(userid) AS 'countusers' ,DATE_FORMAT(FROM_UNIXTIME(timecreated),'%D %M %Y') AS 'day', courseid           
+                                $sql6= "SELECT COUNT(userid) AS 'countusers'
                                         FROM {logstore_standard_log} 
-                                        WHERE action='viewed' AND courseid=$a AND DATE_FORMAT(FROM_UNIXTIME(timecreated),'%D %M %Y')='$date';";
+                                        WHERE action='viewed' AND courseid=$a 
+                                              AND DATE_FORMAT(FROM_UNIXTIME(timecreated),'%D %M %Y')='$date';";
                                 $login6=$DB->get_records_sql($sql6); 
                                 
-                                foreach($login6 as $f=>$va){
-                                        if($va->countusers!=0){
-                                                $data[$X]=$va->countusers;
-                                                $X++;  
-                                        } 
-                                        else{
-                                               $data[$X]=$va->countusers;
-                                                $X++;  
-                                        }                                                               
-                                }                               
+                                foreach($login6 as $f=>$va){                                        
+                                        $data[$X]=$va->countusers;                                                                                                        
+                                } 
+                                $X++;                             
                         } 
                         foreach ($cours as $o=>$valu){
                                 if($valu->id==$a){
@@ -346,17 +86,15 @@
                                 }
                         }
                        $series = new \core\chart_series($name, $data);
-                       $chart->add_series($series);
-                      
+                       $chart->add_series($series);                      
                 } 
 
                 $chart->set_labels($labe2);
                 $yaxis = $chart->get_yaxis(0, true);
-                $yaxis->set_label('numer of logins');
+                $yaxis->set_label('number of views');
                 $yaxis->set_stepsize(max(1, round(max($series) / 10)));
-
                 
                 echo $OUTPUT->render($chart);                  
         }
-
-
+        
+       
