@@ -12,14 +12,16 @@
         }
 
         // selcect category id
-        function get_course_data( $id,$type,$uyear,$semester){                
-                echo $id.': '; echo $type.': ';echo $uyear.': '; echo $semester.': ';
+        function get_course_data( $id,$type,$uyear,$semester,$ndays,$action){ 
+                
+                echo 'Selected Section: ';
+                echo $id.'  '; echo $type.'  ';echo $uyear.'  '; echo $semester.' '.$action.' ';
 
                 global $DB,$sid,$sc;
 
-                $sc=0;                
-                $subject=array();                              
-               
+                $sc=0;   
+                $subject=array();                   
+                
                 $sql=  "SELECT id FROM {course_categories} WHERE parent
                         IN(SELECT id FROM {course_categories} WHERE parent 
                            IN(SELECT id FROM {course_categories} WHERE  parent 
@@ -27,35 +29,40 @@
                         AND name='$semester';";
 
                 $categorys=$DB->get_records_sql($sql);
-                foreach($categorys as $top=>$value){
-                        $sid=$value->id;
-                        echo $value->id.'<br>';
+                if(count($categorys)>0){
+                        foreach($categorys as $top=>$value){
+                                $sid=$value->id;
+                                echo $value->id.':';
+                        }
+                        echo $ndays.'<br>';
+                
+                        $sql1="SELECT id FROM {course} WHERE category='$sid';";
+                        $course=$DB->get_records_sql($sql1);
+                        foreach($course as $sub=>$value){
+                                $subject[$sc]=$value->id;
+                                $sc++;
+                        }                        
+                        get_login_data($subject,$ndays,$action); 
                 }
-
-                $sql1="SELECT id FROM {course} WHERE category='$sid';";
-                $course=$DB->get_records_sql($sql1);
-                foreach($course as $sub=>$value){
-                        $subject[$sc]=$value->id;
-                        $sc++;
-                }
-
-                get_login_data($subject);                        
+                else{
+                        echo   'there is no subjects'.'<br>';
+                }                   
         };
         
         //draw graph according to views of subject 
-        function get_login_data($s){
+        function get_login_data($s,$ndays,$action){
                 global $DB,$countuser,$X, $OUTPUT,$name;
                
                 $countuser=0;
                 $name='';  
-
+                $dan=$ndays-1;
                 $data=array();
                 $labe2=array();
-
+                $days='-'.$dan.'days';
                 $date=date("Y-m-d");
                 $d = new DateTime($date);
-                $d->modify('-30 days');
-                for($i=0;$i<=30;$i++){                                  
+                $d->modify($days);
+                for($i=0;$i<=$dan;$i++){                                  
                         $date=$d->format('d-m-Y');    
                         $newDate = date("d M Y", strtotime($date));
                         $new_date = date('dS F Y', strtotime($newDate));
@@ -69,16 +76,33 @@
                 foreach($s as $a){
                         $X=0;
                         foreach($labe2 as $date){
-                                $sql6= "SELECT COUNT(userid) AS 'countusers'
-                                        FROM {logstore_standard_log} 
-                                        WHERE action='viewed' AND courseid=$a 
-                                              AND DATE_FORMAT(FROM_UNIXTIME(timecreated),'%D %M %Y')='$date';";
-                                $login6=$DB->get_records_sql($sql6); 
+
+                                if($action=='viewed'){
+                                        $sql6= "SELECT COUNT(userid) AS 'countusers'
+                                                FROM {logstore_standard_log} 
+                                                WHERE action='viewed' AND courseid=$a 
+                                                AND DATE_FORMAT(FROM_UNIXTIME(timecreated),'%D %M %Y')='$date';";
+                                        $login6=$DB->get_records_sql($sql6); 
                                 
-                                foreach($login6 as $f=>$va){                                        
-                                        $data[$X]=$va->countusers;                                                                                                        
-                                } 
-                                $X++;                             
+                                        foreach($login6 as $f=>$va){                                        
+                                                $data[$X]=$va->countusers;                                                                                                        
+                                        } 
+                                        $X++; 
+                                }else{
+                                        $sql6= "SELECT COUNT(userid) AS 'countusers'
+                                                FROM {logstore_standard_log} 
+                                                WHERE courseid=$a 
+                                                AND DATE_FORMAT(FROM_UNIXTIME(timecreated),'%D %M %Y')='$date';";
+                                        $login6=$DB->get_records_sql($sql6); 
+                                
+                                        foreach($login6 as $f=>$va){                                        
+                                                $data[$X]=$va->countusers;                                                                                                        
+                                        } 
+                                        $X++; 
+                                        
+                                        
+                                }
+                                                            
                         } 
                         foreach ($cours as $o=>$valu){
                                 if($valu->id==$a){
@@ -96,5 +120,7 @@
                 
                 echo $OUTPUT->render($chart);                  
         }
+
         
+
        

@@ -2,6 +2,7 @@
 
     require_once(dirname(__FILE__) . '/../../config.php');
     require_once($CFG->dirroot.'/blocks/myblock/lib.php');
+    
 
     define('USER_SMALL_CLASS', 20);   
     define('USER_LARGE_CLASS', 200);  
@@ -40,77 +41,70 @@
     $PAGE->set_heading($title);
     $PAGE->navbar->add($title);
     $PAGE->requires->css('/blocks/myblock/styles.css');
-
+   
     require_login($course, false);
 
     echo $OUTPUT->header();
     echo $OUTPUT->heading($title, 2);
 
     echo $OUTPUT->container_start('block_myblock');
-        echo '<div>';
-            echo' <ul class="dropdown">';       
-                echo'<li >';echo'<button  class="dropbtn btn btn-secondary dropdown-toggle" data-toggle="dropdown">';echo'Academic Year 2020';echo'</button>';
-                    echo' <ul class="dropdown-content">';           
-                        echo' <li>';echo'<label class="dropdown-toggle" data-toggle="dropdown">';echo'SCS';echo'</label>';
-                            echo' <ul>';
-                                echo'<li >';echo'<a class="dropdown-toggle" data-toggle="dropdown">';echo'1 st Year';echo'</a>';
-                                    echo' <ul>';
-                                        echo'<li>';echo'<a href="/blocks/myblock/graph.php?year=Academic Year 2020 && type=SCS && uyear=1 st Year && semester=1 st Semester">';echo'1 st Semester';echo'</a>';echo'</li>';
-                                        echo'<li>';echo'<a href="/blocks/myblock/graph.php?year=Academic Year 2020 && type=SCS && uyear=1 st Year && semester=2 nd Semester">';echo'2 nd Semester';echo'</a>';echo'</li>';
-                                    echo'</ul>';
-                                echo'</li>';
-                                echo'<li>';echo'<a class="dropdown-toggle" data-toggle="dropdown">';echo'2 nd Year';echo'</a>';
-                                    echo' <ul>';
-                                        echo'<li>';echo'<a href="/blocks/myblock/graph.php?year=Academic Year 2020 && type=SCS && uyear=2 nd Year && semester=1 st Semester">';echo'1 st Semester';echo'</a>';echo'</li>';
-                                        echo'<li>';echo'<a href="/blocks/myblock/graph.php?year=Academic Year 2020 && type=SCS && uyear=2 nd Year && semester=2 nd Semester">';echo'2 nd Semester';echo'</a>';echo'</li>';
-                                    echo' </ul>';
-                                echo'</li>';
-                                echo'<li>';echo'<a class="dropdown-toggle" data-toggle="dropdown">';echo'3 rd Year';echo'</a>';
-                                    echo' <ul>';
-                                        echo'<li>';echo'<a href="/blocks/myblock/graph.php?year=Academic Year 2020 && type=SCS && uyear=3 rd Year && semester=1 st Semester">';echo'1 st Semester';echo'</a>';echo'</li>';
-                                        echo'<li>';echo'<a href="/blocks/myblock/graph.php?year=Academic Year 2020 && type=SCS && uyear=3 rd Year && semester=2 nd Semester">';echo'2 nd Semester';echo'</a>';echo'</li>';
-                                    echo' </ul>';
-                                echo'</li>';
-                                echo'<li>';echo'<a class="dropdown-toggle" data-toggle="dropdown">';echo'4 th Year';echo'</a>';
-                                    echo' <ul>';
-                                        echo'<li>';echo'<a href="/blocks/myblock/graph.php?year=Academic Year 2020 && type=SCS && uyear=4 th Year && semester=1 st Semester">';echo'1 st Semester';echo'</a>';echo'</li>';
-                                        echo'<li>';echo'<a href="/blocks/myblock/graph.php?year=Academic Year 2020 && type=SCS && uyear=4 th Year && semester=2 nd Semester">';echo'2 nd Semester';echo'</a>';echo'</li>';
-                                    echo' </ul>';
-                                echo'</li>';
-                            echo'</ul>';
-                        echo'</li>';
-                        echo' <li>';echo'<label class="dropdown-toggle"  data-toggle="dropdown">';echo'IS';echo'</label>';
-                            echo' <ul>';
-                                echo'<li>';echo'<a class="dropdown-toggle" data-toggle="dropdown">';echo'1 st Year';echo'</a>';
-                                    echo' <ul>';
-                                        echo'<li>';echo'<a href="/blocks/myblock/graph.php?year=Academic Year 2020 && type=IS && uyear=1 st Year && semester=1 st Semester">';echo'1 st Semester';echo'</a>';echo'</li>';
-                                        echo'<li>';echo'<a href="/blocks/myblock/graph.php?year=Academic Year 2020 && type=IS && uyear=1 st Year && semester=2 nd Semester">';echo'2 nd Semester';echo'</a>';echo'</li>';
-                                    echo' </ul>';
-                                echo'</li>';
-                                echo'<li>';echo'<a class="dropdown-toggle" data-toggle="dropdown">';echo'2 nd Year';echo'</a>';
-                                    echo' <ul>';
-                                        echo'<li>';echo'<a href="/blocks/myblock/graph.php?year=Academic Year 2020 && type=IS && uyear=2 nd Year && semester=1 st Semester">';echo'1 st Semester';echo'</a>';echo'</li>';
-                                        echo'<li>';echo'<a href="/blocks/myblock/graph.php?year=Academic Year 2020 && type=IS && uyear=2 nd Year && semester=2 nd Semester">';echo'2 nd Semester';echo'</a>';echo'</li>';
-                                    echo' </ul>';
-                                echo'</li>';
-                                echo'<li>';echo'<a class="dropdown-toggle" data-toggle="dropdown">';echo'3 rd Year';echo'</a>';
-                                    echo' <ul>';
-                                        echo'<li>';echo'<a href="/blocks/myblock/graph.php?year=Academic Year 2020 && type=IS && uyear=3 rd Year && semester=1 st Semester">';echo'1 st Semester';echo'</a>';echo'</li>';
-                                        echo'<li>';echo'<a href="/blocks/myblock/graph.php?year=Academic Year 2020 && type=IS && uyear=3 rd Year && semester=2 nd Semester">';echo'2 nd Semester';echo'</a>';echo'</li>';
-                                    echo' </ul>';
-                                echo'</li>';
-                                echo'<li>';echo'<a class="dropdown-toggle" data-toggle="dropdown">';echo'4 th Year';echo'</a>';
-                                    echo' <ul>';
-                                        echo'<li>';echo'<a href="/blocks/myblock/graph.php?year=Academic Year 2020 && type=IS && uyear=4 th Year && semester=1 st Semester">';echo'1 st Semester';echo'</a>';echo'</li>';
-                                        echo'<li>';echo'<a href="/blocks/myblock/graph.php?year=Academic Year 2020 && type=IS && uyear=4 th Year && semester=2 nd Semester">';echo'2 nd Semester';echo'</a>';echo'</li>';
-                                    echo' </ul>';
-                                echo'</li>';
-                            echo'</ul>';
-                        echo'</li>';
-                    echo'</ul>';
-                echo'</li>';       
-            echo'</ul>';
-        echo '</div>';        
+        echo'<div>';
+            echo'<form action="overview.php" method="POST">';
+                echo'<select name="per1" >';       
+                    echo'<option >';echo'Academic year 2020';echo'</option>';
+                    echo'<option >';echo'Academic year 2019';echo'</option>';
+                    echo'<option >';echo'Academic year 2018';echo'</option>';            
+                echo'</select>'.' ';
+                echo'<select name="per2" >';        
+                    echo'<option >';echo'SCS';echo'</option>';
+                    echo'<option >';echo'IS';echo'</option>';     
+                echo'</select>'.' ';
+                echo'<select name="per3" > ';       
+                    echo'<option >';echo'1 st Year';echo'</option>';
+                    echo'<option >';echo'2 nd Year';echo'</option>';
+                    echo'<option >';echo'3 rd Year';echo'</option>';
+                    echo'<option >';echo'4 th Year';echo'</option>';     
+                echo'</select>'.' ';
+                echo'<select name="per4" >';        
+                    echo'<option >';echo'1 st Semester';echo'</option>';
+                    echo'<option >';echo'2 nd Semester';echo'</option>';
+                echo'</select>'.' ';
+                echo'<select name="per5" >';
+                    echo'<option >';echo'30';echo'</option>';
+                    echo'<option >';echo'60';echo'</option>';
+                    echo'<option >';echo'120';echo'</option>';
+                    echo'<option >';echo'150';echo'</option>';       
+                echo'</select>'.' ';
+                echo'<select name="per6" >';
+                    echo'<option >';echo'viewed';echo'</option>';
+                    echo'<option >';echo'All Actions';echo'</option>';  
+                echo'</select>'.' ';
+                echo'<select name="logingraphid" hidden>';
+                    echo'<option >';echo $id;echo'</option>';
+                echo'</select>'.' ';
+                echo'<select name="courseid" hidden>';
+                    echo'<option >';echo $courseid ;echo'</option>'; 
+                echo'</select>'.' ';
+                echo'<select name="userid" hidden>';
+                    echo'<option >';echo $userid;echo'</option>'; 
+                echo'</select>'.' ';            
+
+                echo'<input class="btn-primary" type="submit" value=" summary ">';
+            echo'</form>';
+        echo'</div>';
+        echo'<div>';
+            $id2=$_POST['per1'];
+            $type=$_POST['per2'];
+            $uyear=$_POST['per3'];
+            $semester=$_POST['per4'];
+            $ndays=$_POST['per5'];
+            $action=$_POST['per6'];
+            
+            get_course_data($id2,$type,$uyear,$semester,$ndays,$action) ;
+        echo '</div>';
+        
     echo $OUTPUT->container_end();
 
     echo $OUTPUT->footer();
+
+    
