@@ -40,7 +40,7 @@
     $PAGE->set_title($title);
     $PAGE->set_heading($title);
     $PAGE->navbar->add($title);
-    $PAGE->requires->css('/blocks/myblock/styles.css');
+  
    
     require_login($course, false);
 

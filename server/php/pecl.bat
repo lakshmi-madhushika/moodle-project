@@ -25,12 +25,12 @@ REM -------------------
 REM Test to see if this is a raw pear.bat (uninstalled version)
 SET TMPTMPTMPTMPT=@includ
 SET PMTPMTPMT=%TMPTMPTMPTMPT%e_path@
-FOR %%x IN ("C:\git_repo\moodle-project\server\php\pear") DO (if %%x=="%PMTPMTPMT%" GOTO :NOTINSTALLED)
+FOR %%x IN ("D:\SUBJECTS\3\subject\compulsory\GP\git_repo\moodle-project\server\php\pear") DO (if %%x=="%PMTPMTPMT%" GOTO :NOTINSTALLED)
 
 REM Check PEAR global ENV, set them if they do not exist
-IF "%PHP_PEAR_INSTALL_DIR%"=="" SET "PHP_PEAR_INSTALL_DIR=C:\git_repo\moodle-project\server\php\pear"
-IF "%PHP_PEAR_BIN_DIR%"=="" SET "PHP_PEAR_BIN_DIR=C:\git_repo\moodle-project\server\php\"
-IF "%PHP_PEAR_PHP_BIN%"=="" SET "PHP_PEAR_PHP_BIN=C:\git_repo\moodle-project\server\php\php.exe"
+IF "%PHP_PEAR_INSTALL_DIR%"=="" SET "PHP_PEAR_INSTALL_DIR=D:\SUBJECTS\3\subject\compulsory\GP\git_repo\moodle-project\server\php\pear"
+IF "%PHP_PEAR_BIN_DIR%"=="" SET "PHP_PEAR_BIN_DIR=D:\SUBJECTS\3\subject\compulsory\GP\git_repo\moodle-project\server\php\"
+IF "%PHP_PEAR_PHP_BIN%"=="" SET "PHP_PEAR_PHP_BIN=D:\SUBJECTS\3\subject\compulsory\GP\git_repo\moodle-project\server\php\php.exe"
 GOTO :INSTALLED
 
 :NOTINSTALLED

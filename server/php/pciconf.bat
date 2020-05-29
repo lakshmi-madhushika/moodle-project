@@ -12,5 +12,5 @@ rem @version    CVS: $Id: pciconf.bat,v 1.1 2008/11/29 18:18:55 farell Exp $
 rem @link       http://pear.php.net/package/PHP_CompatInfo
 rem @since      File available since Release 1.9.0b1
 
-set XAMPPPHPDIR=C:\git_repo\moodle-project\server\php
+set XAMPPPHPDIR=D:\SUBJECTS\3\subject\compulsory\GP\git_repo\moodle-project\server\php
 "%XAMPPPHPDIR%\.\php.exe" -f "%XAMPPPHPDIR%\pciconf" -- %*
