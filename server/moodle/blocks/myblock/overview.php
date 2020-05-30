@@ -48,60 +48,39 @@
     echo $OUTPUT->heading($title, 2);
 
     echo $OUTPUT->container_start('block_myblock');
-        echo'<div>';
-            echo'<form action="overview.php" method="POST">';
-                echo'<select name="per1" >';       
-                    echo'<option >';echo'Academic year 2020';echo'</option>';
-                    echo'<option >';echo'Academic year 2019';echo'</option>';
-                    echo'<option >';echo'Academic year 2018';echo'</option>';            
-                echo'</select>'.' ';
-                echo'<select name="per2" >';        
-                    echo'<option >';echo'SCS';echo'</option>';
-                    echo'<option >';echo'IS';echo'</option>';     
-                echo'</select>'.' ';
-                echo'<select name="per3" > ';       
-                    echo'<option >';echo'1 st Year';echo'</option>';
-                    echo'<option >';echo'2 nd Year';echo'</option>';
-                    echo'<option >';echo'3 rd Year';echo'</option>';
-                    echo'<option >';echo'4 th Year';echo'</option>';     
-                echo'</select>'.' ';
-                echo'<select name="per4" >';        
-                    echo'<option >';echo'1 st Semester';echo'</option>';
-                    echo'<option >';echo'2 nd Semester';echo'</option>';
-                echo'</select>'.' ';
-                echo'<select name="per5" >';
-                    echo'<option >';echo'30';echo'</option>';
-                    echo'<option >';echo'60';echo'</option>';
-                    echo'<option >';echo'120';echo'</option>';
-                    echo'<option >';echo'150';echo'</option>';       
-                echo'</select>'.' ';
-                echo'<select name="per6" >';
-                    echo'<option >';echo'viewed';echo'</option>';
-                    echo'<option >';echo'All Actions';echo'</option>';  
-                echo'</select>'.' ';
-                echo'<select name="logingraphid" hidden>';
-                    echo'<option >';echo $id;echo'</option>';
-                echo'</select>'.' ';
-                echo'<select name="courseid" hidden>';
-                    echo'<option >';echo $courseid ;echo'</option>'; 
-                echo'</select>'.' ';
-                echo'<select name="userid" hidden>';
-                    echo'<option >';echo $userid;echo'</option>'; 
-                echo'</select>'.' ';            
 
-                echo'<input class="btn-primary" type="submit" value=" summary ">';
-            echo'</form>';
-        echo'</div>';
-        echo'<div>';
-            $id2=$_POST['per1'];
-            $type=$_POST['per2'];
-            $uyear=$_POST['per3'];
-            $semester=$_POST['per4'];
-            $ndays=$_POST['per5'];
-            $action=$_POST['per6'];
-            
+        $acdemicyear=array('Academic year 2020','Academic year 2019','Academic year 2018');
+        $types=array('SCS','IS');
+        $years=array('1 st Year','2 nd Year','3 rd Year','4 th Year');
+        $semesters=array('1 st Semester','2 nd Semester');
+        $ndayss=array('30','60','120','150');
+        $actions=array('viewed','All Actions');
+
+        echo html_writer::start_tag('div');
+            echo html_writer::start_tag('form', array('action' =>'overview.php', 'method' => 'post'));
+                echo html_writer::select( $acdemicyear,'per1',$selected1,true).' ';
+                echo html_writer::select( $types,'per2',$selected2,true).' ';
+                echo html_writer::select( $years,'per3',$selected3,true).' ';
+                echo html_writer::select( $semesters,'per4',$selected4,true).' ';
+                echo html_writer::select( $ndayss,'per5',$selected5,true).' ';
+                echo html_writer::select( $actions,'per6',$selected6,true).' ';            
+                echo html_writer::empty_tag('input', array('type' => 'hidden', 'name' => 'logingraphid', 'value' => $id));
+                echo html_writer::empty_tag('input', array('type' => 'hidden', 'name' => 'courseid', 'value' => $courseid));
+                echo html_writer::empty_tag('input', array('type' => 'hidden', 'name' => 'userid', 'value' => $userid));
+
+                echo html_writer::empty_tag('input', array('type' => 'submit', 'class' => 'btn-primary', 'value' => 'courses summary','style'=>'height:35px ; border:1px solid black'));
+            echo html_writer::end_tag('form').'<br>';       
+        echo html_writer::end_tag('div');
+
+        echo html_writer::start_tag('div', array('style' => 'border-style:groove ; '));     
+            $id2=$acdemicyear[ $_POST['per1'] ];
+            $type=$types[ $_POST['per2'] ];
+            $uyear=$years[ $_POST['per3'] ];
+            $semester=$semesters[ $_POST['per4'] ];
+            $ndays=$ndayss[ $_POST['per5'] ];
+            $action=$actions[ $_POST['per6'] ];         
             get_course_data($id2,$type,$uyear,$semester,$ndays,$action) ;
-        echo '</div>';
+        echo html_writer::end_tag('div');
         
     echo $OUTPUT->container_end();
 

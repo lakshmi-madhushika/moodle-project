@@ -12,11 +12,8 @@
         }
 
         // selcect category id
-        function get_course_data( $id,$type,$uyear,$semester,$ndays,$action){ 
+        function get_course_data( $id,$type,$uyear,$semester,$ndays,$action){              
                 
-                echo 'Selected Section: ';
-                echo $id.'  '; echo $type.'  ';echo $uyear.'  '; echo $semester.' '.$action.' ';
-
                 global $DB,$sid,$sc;
 
                 $sc=0;   
@@ -30,11 +27,11 @@
 
                 $categorys=$DB->get_records_sql($sql);
                 if(count($categorys)>0){
+                        
+                        echo ' '.$id.'  '; echo $type.'  ';echo $uyear.'  '; echo $semester.' course '.$action.' summary in '.$ndays.'<br>'.'<br>';
                         foreach($categorys as $top=>$value){
                                 $sid=$value->id;
-                                echo $value->id.':';
                         }
-                        echo $ndays.'<br>';
                 
                         $sql1="SELECT id FROM {course} WHERE category='$sid';";
                         $course=$DB->get_records_sql($sql1);
@@ -45,14 +42,14 @@
                         get_login_data($subject,$ndays,$action); 
                 }
                 else{
-                        echo   'there is no subjects'.'<br>';
+                        echo  ' In  '.$id. ' there is no values to display'.'<br>'.'<br>';
                 }                   
         };
         
         //draw graph according to views of subject 
         function get_login_data($s,$ndays,$action){
-                global $DB,$countuser,$X, $OUTPUT,$name;
-               
+                global $DB,$countuser,$X, $OUTPUT,$name,$max;
+                $max=1;
                 $countuser=0;
                 $name='';  
                 $dan=$ndays-1;
@@ -110,13 +107,17 @@
                                 }
                         }
                        $series = new \core\chart_series($name, $data);
+                       if($max<=max($data)){
+                               $max=max($data);
+                       }
+
                        $chart->add_series($series);                      
                 } 
-
+ 
                 $chart->set_labels($labe2);
                 $yaxis = $chart->get_yaxis(0, true);
                 $yaxis->set_label('number of views');
-                $yaxis->set_stepsize(max(1, round(max($series) / 10)));
+                $yaxis->set_stepsize(max(1,round($max  / 10)));
                 
                 echo $OUTPUT->render($chart);                  
         }
