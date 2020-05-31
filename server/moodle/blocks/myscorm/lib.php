@@ -12,60 +12,75 @@ function block_myscorm_course_context($courseid) { //get login page data
 
 
 function get_login_datas($courseid,$userid ){
+    
 
-    global $DB;
-
+    echo 'great (>=75) : '.'<img src="images/green.jpg" height="20" width="20">'.',';  
+    echo 'good (>=65) : '.'<img src="images/blue.jpg" height="20" width="20">'.',';
+    echo  'ok (>=50) : '.'<img src="images/yellow.jpg" height="20" width="20">'.',';
+    echo 'not ok (>=35) : '.'<img src="images/pink.jpg" height="20" width="20">'.',';
+    echo  'very bad (>=0) : '.'<img src="images/red.jpg" height="20" width="20">'.','; 
+    echo  'not do yet : '.'<img src="images/gray.jpg" height="20" width="20">'.'<br>';
+    global $DB,$i;
+    $i=1;
     $sql5= "SELECT id,course,name FROM {scorm} WHERE course='$courseid' ;";
     $login5=$DB->get_records_sql($sql5); 
     foreach($login5 as $d=>$va){
-
+        echo '<br>'.$i++.') ';
         echo 'scorm name : '.$va->name.'<br>';
         $c=$va->id;
      
-        echo '------------------------------------your feedback-------------------------------'.'<br>';
+        echo '-----your position-----'.'<br>';
 
         $sql6= "SELECT *FROM {scorm_scoes_track} WHERE element='cmi.core.score.raw' AND scormid=$c AND userid='$userid';";
         $login6=$DB->get_records_sql($sql6); 
         foreach($login6 as $d=>$va){
                       
-            echo 'scoid: '.$va->scoid.' <br> '.'attempt number: '.$va->attempt.'<br>';
+            echo 'attempt number: '.$va->attempt.'<br>';
             
             $answer =$va->value;
             if ($answer>=75) {
-                echo 'You are grate,  your result is : ';
+                echo '<img src="images/green.jpg" height="100" width="100">'.'<br>';   
+                echo 'your result is : ';
                 echo $answer.'<br>';           
-                echo '<img src="images/green.jpg" height="200" width="100">';        
+                     
             }
             elseif($answer>=65){
-                echo 'You are good,  your result is : ';
+                echo '<img src="images/blue.jpg" height="100" width="100">'.'<br>';
+                echo 'your result is : ';
                 echo $answer.'<br>';  
-                echo '<img src="images/green.jpg" height="200" width="100">';
+                
             }
             elseif($answer>=50){
-                echo 'You are ok,  your result is : ';
+                echo '<img src="images/yellow.jpg" height="100" width="100">'.'<br>';
+                echo 'your result is : ';
                 echo $answer.'<br>';  
-                echo '<img src="images/yellow.jpg" height="200" width="100">';
+                
             }
             elseif($answer>=35){
-                echo 'You are not ok,  your result is : ';
+                echo '<img src="images/pink.jpg" height="100" width="100">'.'<br>';
+                echo 'your result is : ';
                 echo $answer.'<br>';  
-                echo '<img src="images/yellow.jpg" height="200" width="100">';
+               
             }
             elseif($answer>=25){
-                echo 'You are bad,  your result is : ';
+                echo '<img src="images/red.jpg" height="100" width="100">'.'<br>';
+                echo 'your result is : ';
                 echo $answer.'<br>';  
-                echo '<img src="images/red.jpg" height="200" width="100">';
+               
             }
             else {
-                echo 'You are very bad,  your result is : ';
-                echo $answer.'<br>';  
-                echo '<img src="images/red.jpg" height="200" width="100">';
+                echo '<img src="images/red.jpg" height="100" width="100">'.'<br>';
+                echo 'your result is : ';
+                echo $answer;  
+                
             }
             echo '<br>';
         }
 
         if(count($login6)==0){
-            echo 'you did not do any attempt to this scorm. please do it';
+
+            echo '<img src="images/gray.jpg" height="100" width="100">'.'<br>';
+            
         }
     }  
 }

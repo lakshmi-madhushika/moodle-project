@@ -53,8 +53,8 @@
                 $countuser=0;
                 $name='';  
                 $dan=$ndays-1;
-                $data=array();
-                $labe2=array();
+                $data=array();//for data
+                $labe2=array();//for dates label
                 $days='-'.$dan.'days';
                 $date=date("Y-m-d");
                 $d = new DateTime($date);
