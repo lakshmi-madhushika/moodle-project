@@ -13778,3 +13778,5 @@ InnoDB: directories yourself, InnoDB does not create them.
 2020-06-04 14:38:35 9408 [Note] InnoDB: Dumping buffer pool(s) not yet started
 2020-06-04 14:38:35 12408 [Note] Plugin 'FEEDBACK' is disabled.
 2020-06-04 14:38:35 12408 [Note] Server socket created on IP: '::'.
+2020-06-04 14:38:37 12408 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.16-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution

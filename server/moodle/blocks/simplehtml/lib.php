@@ -10,20 +10,16 @@
                         return get_context_instance(CONTEXT_COURSE, $courseid);
                 }
         }
-
         
-        // //draw graph according to views of subject 
+        // draw graph according to views of subject 
         function get_logins_data($id2,$ndays,$action,$courseid){
-
-                global $DB,$countuser,$X, $OUTPUT,$name,$max,$cat,$u;
-                
+                global $DB,$countuser,$X, $OUTPUT,$name,$max,$cat,$u;                
                 $u=0;  
                 $max=1;
                 $countuser=0;
                 $name='';
                 $subject=array();
                 $label=array();
-
                 $dan=$ndays-1;
                 $data=array();//for data
                 $labe2=array();//for dates label
@@ -37,10 +33,8 @@
                         $new_date = date('jS F Y', strtotime($newDate));
                         $labe2[$i]=$new_date;
                         $d->modify('+1 days');                                
-                }                               
-                        
+                }                                     
                 $chart = new \core\chart_line();
-
                 $sql1="SELECT category FROM {course} WHERE id='$courseid';";  
                 $cours=$DB->get_records_sql($sql1);
                 foreach ($cours as $s=>$value){
@@ -49,10 +43,8 @@
                 $sql0="SELECT id,fullname, idnumber FROM {course} WHERE category='$cat';";  
                 $all=$DB->get_records_sql($sql0);   
                 $label=get_coursees($id2);
-                foreach($label as $i){
-                        
-                        if($i==$courseid){
-                              
+                foreach($label as $i){                        
+                        if($i==$courseid){                              
                                 foreach($label as $i){
                                         foreach ($all as $s=>$value ){
                                                 if($value->id==$i){
@@ -61,12 +53,10 @@
                                                 }
                                         } 
                                 } 
-
                                 $sql2="SELECT firstname, lastname FROM {user} WHERE id='$id2';";
                                 $l=$DB->get_records_sql($sql2);
                                 foreach($l as $w=>$va){
-                                        echo $va->firstname.' '.$va->lastname.'<br>';                       
-
+                                        echo $va->firstname.' '.$va->lastname.'<br>';                      
                                         foreach($subject as $a){
                                                 $X=0;
                                                 foreach($labe2 as $date){        
@@ -102,11 +92,9 @@
                                                 $series = new \core\chart_series($name, $data);
                                                 if($max<=max($data)){
                                                         $max=max($data);
-                                                }
-                        
+                                                }                        
                                                 $chart->add_series($series);                      
-                                        } 
-                
+                                        }                 
                                         $chart->set_labels($labe2);
                                         $yaxis = $chart->get_yaxis(0, true);
                                         $yaxis->set_label('number of views');
@@ -114,9 +102,7 @@
                                         echo $OUTPUT->render($chart);     
                                 } 
                         }                                                                                             
-                }
-                
-                                     
+                }                                     
         }
 
         function  get_coursees($userid){
@@ -144,6 +130,5 @@
                                 }
                         }
                 }
-
                 return $label;
         }
