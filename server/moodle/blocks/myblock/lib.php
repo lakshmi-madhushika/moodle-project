@@ -12,8 +12,7 @@
         }
 
         // selcect category id
-        function get_course_data( $id,$type,$uyear,$semester,$ndays,$action){              
-                
+        function get_course_data( $id,$type,$uyear,$semester,$ndays,$action){            
                 global $DB,$sid,$sc;
 
                 $sc=0;   
@@ -28,7 +27,7 @@
                 $categorys=$DB->get_records_sql($sql);
                 if(count($categorys)>0){
                         
-                        echo ' '.$id.'  '; echo $type.'  ';echo $uyear.'  '; echo $semester.' course '.$action.' summary in '.$ndays.'<br>'.'<br>';
+                        echo ' '.$id.'  '; echo $type.'  ';echo $uyear.'  '; echo $semester.' course '.$action.' summary in '.$ndays.' days'.'<br>'.'<br>';
                         foreach($categorys as $top=>$value){
                                 $sid=$value->id;
                         }
@@ -62,7 +61,7 @@
                 for($i=0;$i<=$dan;$i++){                                  
                         $date=$d->format('d-m-Y');    
                         $newDate = date("d M Y", strtotime($date));
-                        $new_date = date('dS F Y', strtotime($newDate));
+                        $new_date = date('jS F Y', strtotime($newDate));
                         $labe2[$i]=$new_date;
                         $d->modify('+1 days');                                
                 }                               
@@ -80,7 +79,6 @@
                                                 WHERE action='viewed' AND courseid=$a 
                                                 AND DATE_FORMAT(FROM_UNIXTIME(timecreated),'%D %M %Y')='$date';";
                                         $login6=$DB->get_records_sql($sql6); 
-                                
                                         foreach($login6 as $f=>$va){                                        
                                                 $data[$X]=$va->countusers;                                                                                                        
                                         } 

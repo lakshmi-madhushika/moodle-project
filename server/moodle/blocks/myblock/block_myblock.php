@@ -22,7 +22,6 @@
             
             $parameters=array('logingraphid'=>$this->instance->id,'userid'=>$USER->id,'courseid'=>$COURSE->id);
             $options = array('class' => 'overviewButton');
-            $options1 = array('class' => 'overviewButton');
             $url = new moodle_url('/blocks/myblock/overview.php',$parameters);        
             $this->content->text .= $OUTPUT->single_button($url, 'overview of students', 'post',$options);
             return $this->content;
