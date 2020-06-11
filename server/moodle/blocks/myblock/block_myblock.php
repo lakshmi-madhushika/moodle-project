@@ -5,7 +5,7 @@
     class block_myblock extends block_base {
 
         public function init(){
-            $this->title='course login data';
+            $this->title= 'Actions of courses';
         }
 
         public function get_content(){
@@ -17,8 +17,7 @@
 
             $this->content=new stdClass;
             $this->content->text='';
-            $this->content->footer='';
-            
+            $this->content->footer='';           
             
             $parameters=array('logingraphid'=>$this->instance->id,'userid'=>$USER->id,'courseid'=>$COURSE->id);
             $options = array('class' => 'overviewButton');

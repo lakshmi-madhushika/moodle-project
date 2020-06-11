@@ -12,75 +12,136 @@ function block_myscorm_course_context($courseid) { //get login page data
 
 
 function get_login_datas($courseid,$userid ){
-    
 
-    echo 'great (>=75) : '.'<img src="images/green.jpg" height="20" width="20">'.',';  
-    echo 'good (>=65) : '.'<img src="images/blue.jpg" height="20" width="20">'.',';
-    echo  'ok (>=50) : '.'<img src="images/yellow.jpg" height="20" width="20">'.',';
-    echo 'not ok (>=35) : '.'<img src="images/pink.jpg" height="20" width="20">'.',';
-    echo  'very bad (>=0) : '.'<img src="images/red.jpg" height="20" width="20">'.','; 
-    echo  'not do yet : '.'<img src="images/gray.jpg" height="20" width="20">'.'<br>';
-    global $DB,$i;
-    $i=1;
-    $sql5= "SELECT id,course,name FROM {scorm} WHERE course='$courseid' ;";
-    $login5=$DB->get_records_sql($sql5); 
-    foreach($login5 as $d=>$va){
-        echo '<br>'.$i++.') ';
-        echo 'scorm name : '.$va->name.'<br>';
-        $c=$va->id;
-     
-        echo '-----your position-----'.'<br>';
+  global $DB;
 
-        $sql6= "SELECT *FROM {scorm_scoes_track} WHERE element='cmi.core.score.raw' AND scormid=$c AND userid='$userid';";
-        $login6=$DB->get_records_sql($sql6); 
-        foreach($login6 as $d=>$va){
-                      
-            echo 'attempt number: '.$va->attempt.'<br>';
-            
-            $answer =$va->value;
-            if ($answer>=75) {
-                echo '<img src="images/green.jpg" height="100" width="100">'.'<br>';   
-                echo 'your result is : ';
-                echo $answer.'<br>';           
-                     
-            }
-            elseif($answer>=65){
-                echo '<img src="images/blue.jpg" height="100" width="100">'.'<br>';
-                echo 'your result is : ';
-                echo $answer.'<br>';  
+  $sql5= "SELECT id,course,name FROM {scorm} WHERE course=$courseid;";
+  $login5=$DB->get_records_sql($sql5);
+  foreach($login5 as $d=>$va){
+    echo $a=$va->name;
+    $c=$va->id;
+  
+      $sql6= "SELECT *FROM {scorm_scoes_track} WHERE element='cmi.core.score.raw' AND scormid='$c' AND userid='$userid';";
+      $login6=$DB->get_records_sql($sql6);
+
+         $sql8= "SELECT *FROM {user} WHERE id=$userid;" ;
+                $login8=$DB->get_records_sql($sql8);
+                foreach($login8 as $d0=>$vaa){        
+                   $vaa->id.'--'.$vaa->username.'--'.'<br>';
+                   $name = $vaa->username;
                 
-            }
-            elseif($answer>=50){
-                echo '<img src="images/yellow.jpg" height="100" width="100">'.'<br>';
-                echo 'your result is : ';
-                echo $answer.'<br>';  
+
+      if(count($login6)>0){
+      foreach($login6 as $d=>$va){  
+  
                 
-            }
-            elseif($answer>=35){
-                echo '<img src="images/pink.jpg" height="100" width="100">'.'<br>';
-                echo 'your result is : ';
-                echo $answer.'<br>';  
-               
-            }
-            elseif($answer>=25){
-                echo '<img src="images/red.jpg" height="100" width="100">'.'<br>';
-                echo 'your result is : ';
-                echo $answer.'<br>';  
-               
-            }
-            else {
-                echo '<img src="images/red.jpg" height="100" width="100">'.'<br>';
-                echo 'your result is : ';
-                echo $answer;  
                 
-            }
-            echo '<br>';
+//   if($userid==$u){
+          $attempt= $va->attempt;
+          
+          $answer = $va->value;
+          if($answer >= 101){
+              echo $name;
+              echo ' Please Do the Quiz';
+              return 0;
+          }
+          if ($answer>=75) {
+              echo '<br />';
+              echo $name;
+              echo ' your attempt';
+              echo $attempt;
+              echo ' result is ';
+              echo $answer;
+              echo ' You are Greate';
+              echo '<br />';echo '<br />';
+              echo '<img src="images/darkGreen.png" height="200" width="500">';
+              echo '<br />';
+              
+              
+          }
+          elseif($answer>=65){
+              echo '<br />';
+              echo $name;
+              echo ' your attempt ';
+              echo $attempt;
+              echo ' result is ';
+              echo $answer;
+              echo ' You are good ';
+              echo '<br />';echo '<br />';
+              echo '<img src="images/green.png" height="200" width="500">';
+              echo '<br />';
+              
+          }
+          elseif($answer>=50){
+              echo '<br />';
+              echo $name;
+              echo ' your attempt ';
+              echo $attempt;
+              echo ' result is ';
+              echo $answer;
+              echo ' You are ok ';
+              echo '<br />';echo '<br />';
+              echo '<img src="images/yellow.png" height="200" width="500">';
+              echo '<br />';
+              
+          }
+          elseif($answer>=35){
+              echo '<br />';
+              echo $name;
+              echo ' your attempt ';
+              echo $attempt;
+              echo ' result is ';
+              echo $answer;
+              echo ' You are not ok';
+              echo '<br />';echo '<br />';
+              echo '<img src="images/orange.png" height="200" width="500">';
+              echo '<br />';
+              
+          }
+          elseif($answer>=25){
+              echo '<br />';
+              echo $name;
+              echo ' your attempt ';
+              echo $attempt;
+              echo ' result is ';
+              echo $answer;
+              echo ' You are bad';
+              echo '<br />';echo '<br />';
+              echo '<img src="images/red.png" height="200" width="500">';
+              
+              
+          }
+          elseif($answer>=0) {
+              echo '<br />';
+              echo $name;
+              echo ' your attempt ';
+              echo $attempt;
+              echo ' result is ';
+              echo $answer;
+              echo ' You are very bad and meet supervisore';
+              echo '<br />';echo '<br />';
+              echo '<img src="images/red.png" height="200" width="500">';
+              echo '<br />';
+              
+          }
+          
         }
-
-        if(count($login6)==0){
-
-            echo '<img src="images/gray.jpg" height="100" width="100">'.'<br>';
-            
         }
-    }  
-}
+        else{
+            echo '<br />';
+            echo $name;
+            echo ' Please Do the Quiz';
+        }
+    }
+      }
+      }
+  
+
+
+
+//   }
+
+ 
+
+ 
+// }

@@ -53,7 +53,7 @@
         $types=array('SCS','IS');
         $years=array('1 st Year','2 nd Year','3 rd Year','4 th Year');
         $semesters=array('1 st Semester','2 nd Semester');
-        $ndayss=array('30','60','120','150');
+        $ndayss=array('30','60','90','105');
         $actions=array('viewed','All Actions');
 
         echo html_writer::start_tag('div');
@@ -62,7 +62,7 @@
                 echo html_writer::select( $types,'per2',$selected2,true).' ';
                 echo html_writer::select( $years,'per3',$selected3,true).' ';
                 echo html_writer::select( $semesters,'per4',$selected4,true).' ';
-                echo html_writer::select( $ndayss,'per5',$selected5,true).' ';
+                echo html_writer::select( $ndayss,'per5',$selected5,'Select no of days').' ';
                 echo html_writer::select( $actions,'per6',$selected6,true).' ';            
                 echo html_writer::empty_tag('input', array('type' => 'hidden', 'name' => 'logingraphid', 'value' => $id));
                 echo html_writer::empty_tag('input', array('type' => 'hidden', 'name' => 'courseid', 'value' => $courseid));

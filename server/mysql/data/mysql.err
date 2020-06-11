@@ -13780,3 +13780,1367 @@ InnoDB: directories yourself, InnoDB does not create them.
 2020-06-04 14:38:35 12408 [Note] Server socket created on IP: '::'.
 2020-06-04 14:38:37 12408 [Note] mysql\bin\mysqld.exe: ready for connections.
 Version: '10.1.16-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-04 18:11:16 13360 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+2020-06-04 18:11:16 13360 [Note] Event Scheduler: Purging the queue. 0 events
+2020-06-04 18:11:16 11400 [Note] InnoDB: FTS optimize thread exiting.
+2020-06-04 18:11:16 13360 [Note] InnoDB: Starting shutdown...
+2020-06-04 18:11:17 13360 [Note] InnoDB: Shutdown completed; log sequence number 68226167
+2020-06-04 18:11:17 13360 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+2020-06-04 18:13:21 7776 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-04 18:13:21 7776 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-04 18:13:21 7776 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-04 18:13:21 7776 [Note] InnoDB: Memory barrier is not used
+2020-06-04 18:13:21 7776 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-04 18:13:21 7776 [Note] InnoDB: Using generic crc32 instructions
+2020-06-04 18:13:21 7776 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2020-06-04 18:13:21 7776 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-04 18:13:22 7776 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-04 18:13:25 1e60  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__bookmark'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__bookmark"', ignored.
+2020-06-04 18:13:25 1e60  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__central_columns'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__central_columns"', ignored.
+2020-06-04 18:13:25 1e60  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__column_info'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__column_info"', ignored.
+2020-06-04 18:13:25 1e60  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__designer_settings'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__designer_settings"', ignored.
+2020-06-04 18:13:25 1e60  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__export_templates'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__export_templates"', ignored.
+2020-06-04 18:13:25 1e60  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__favorite'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__favorite"', ignored.
+2020-06-04 18:13:25 1e60  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__history'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__history"', ignored.
+2020-06-04 18:13:25 1e60  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__navigationhiding'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__navigationhiding"', ignored.
+2020-06-04 18:13:25 1e60  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__pdf_pages'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__pdf_pages"', ignored.
+2020-06-04 18:13:25 1e60  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__recent'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__recent"', ignored.
+2020-06-04 18:13:25 1e60  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__relation'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__relation"', ignored.
+2020-06-04 18:13:25 1e60  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__savedsearches'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__savedsearches"', ignored.
+2020-06-04 18:13:25 1e60  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_coords'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_coords"', ignored.
+2020-06-04 18:13:25 1e60  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_info'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_info"', ignored.
+2020-06-04 18:13:25 1e60  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_uiprefs'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_uiprefs"', ignored.
+2020-06-04 18:13:25 1e60  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__tracking'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__tracking"', ignored.
+2020-06-04 18:13:25 1e60  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__userconfig'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__userconfig"', ignored.
+2020-06-04 18:13:25 1e60  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__usergroups'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__usergroups"', ignored.
+2020-06-04 18:13:25 1e60  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__users'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 18:13:25 7776 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__users"', ignored.
+2020-06-04 18:13:25 7776 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-04 18:13:25 7776 [Note] InnoDB: Waiting for purge to start
+2020-06-04 18:13:25 7776 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.30-76.3 started; log sequence number 68226167
+2020-06-04 18:13:26 14764 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-04 18:13:26 7776 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-04 18:13:26 7776 [Note] Server socket created on IP: '::'.
+2020-06-04 18:13:27 7776 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.16-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-04 18:20:20 120 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+2020-06-04 18:20:20 120 [Note] Event Scheduler: Purging the queue. 0 events
+2020-06-04 18:20:20 4976 [Note] InnoDB: FTS optimize thread exiting.
+2020-06-04 18:20:20 120 [Note] InnoDB: Starting shutdown...
+2020-06-04 18:20:22 120 [Note] InnoDB: Shutdown completed; log sequence number 68324911
+2020-06-04 18:20:22 120 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+2020-06-04 23:18:30 11028 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-04 23:18:30 11028 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-04 23:18:30 11028 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-04 23:18:30 11028 [Note] InnoDB: Memory barrier is not used
+2020-06-04 23:18:30 11028 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-04 23:18:30 11028 [Note] InnoDB: Using generic crc32 instructions
+2020-06-04 23:18:30 11028 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2020-06-04 23:18:30 11028 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-04 23:18:31 11028 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-04 23:18:39 2b14  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__bookmark'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__bookmark"', ignored.
+2020-06-04 23:18:39 2b14  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__central_columns'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__central_columns"', ignored.
+2020-06-04 23:18:39 2b14  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__column_info'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__column_info"', ignored.
+2020-06-04 23:18:39 2b14  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__designer_settings'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__designer_settings"', ignored.
+2020-06-04 23:18:39 2b14  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__export_templates'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__export_templates"', ignored.
+2020-06-04 23:18:39 2b14  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__favorite'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__favorite"', ignored.
+2020-06-04 23:18:39 2b14  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__history'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__history"', ignored.
+2020-06-04 23:18:39 2b14  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__navigationhiding'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__navigationhiding"', ignored.
+2020-06-04 23:18:39 2b14  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__pdf_pages'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__pdf_pages"', ignored.
+2020-06-04 23:18:39 2b14  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__recent'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__recent"', ignored.
+2020-06-04 23:18:39 2b14  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__relation'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__relation"', ignored.
+2020-06-04 23:18:39 2b14  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__savedsearches'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__savedsearches"', ignored.
+2020-06-04 23:18:39 2b14  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_coords'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_coords"', ignored.
+2020-06-04 23:18:39 2b14  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_info'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_info"', ignored.
+2020-06-04 23:18:39 2b14  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_uiprefs'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_uiprefs"', ignored.
+2020-06-04 23:18:39 2b14  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__tracking'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__tracking"', ignored.
+2020-06-04 23:18:39 2b14  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__userconfig'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__userconfig"', ignored.
+2020-06-04 23:18:39 2b14  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__usergroups'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__usergroups"', ignored.
+2020-06-04 23:18:39 2b14  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__users'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-04 23:18:39 11028 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__users"', ignored.
+2020-06-04 23:18:39 11028 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-04 23:18:39 11028 [Note] InnoDB: Waiting for purge to start
+2020-06-04 23:18:39 11028 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.30-76.3 started; log sequence number 68324911
+2020-06-04 23:18:40 14316 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-04 23:18:40 11028 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-04 23:18:40 11028 [Note] Server socket created on IP: '::'.
+2020-06-04 23:18:40 11028 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.16-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-04 23:19:52 13492 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-04 23:19:52 13492 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-04 23:19:52 13492 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-04 23:19:52 13492 [Note] InnoDB: Memory barrier is not used
+2020-06-04 23:19:52 13492 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-04 23:19:52 13492 [Note] InnoDB: Using generic crc32 instructions
+2020-06-04 23:19:52 13492 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2020-06-04 23:19:52 13492 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-04 23:19:52 13492 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2020-06-04 23:19:52 13492 [ERROR] InnoDB: The system tablespace must be writable!
+2020-06-04 23:19:52 13492 [ERROR] Plugin 'InnoDB' init function returned error.
+2020-06-04 23:19:52 13492 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2020-06-04 23:19:52 13492 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-04 23:19:52 13492 [ERROR] Unknown/unsupported storage engine: innodb
+2020-06-04 23:19:52 13492 [ERROR] Aborting
+
+2020-06-05  1:25:55 11356 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+2020-06-05  1:25:56 11356 [Note] Event Scheduler: Purging the queue. 0 events
+2020-06-05  1:25:56 9172 [Note] InnoDB: FTS optimize thread exiting.
+2020-06-05  1:25:56 11356 [Note] InnoDB: Starting shutdown...
+2020-06-05  1:25:59 11356 [Note] InnoDB: Shutdown completed; log sequence number 68833314
+2020-06-05  1:25:59 11356 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+2020-06-05 13:36:55 14240 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-05 13:36:55 14240 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-05 13:36:55 14240 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-05 13:36:55 14240 [Note] InnoDB: Memory barrier is not used
+2020-06-05 13:36:55 14240 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-05 13:36:55 14240 [Note] InnoDB: Using generic crc32 instructions
+2020-06-05 13:36:55 14240 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2020-06-05 13:36:55 14240 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-05 13:36:55 14240 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-05 13:37:11 37a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__bookmark'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__bookmark"', ignored.
+2020-06-05 13:37:11 37a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__central_columns'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__central_columns"', ignored.
+2020-06-05 13:37:11 37a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__column_info'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__column_info"', ignored.
+2020-06-05 13:37:11 37a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__designer_settings'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__designer_settings"', ignored.
+2020-06-05 13:37:11 37a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__export_templates'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__export_templates"', ignored.
+2020-06-05 13:37:11 37a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__favorite'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__favorite"', ignored.
+2020-06-05 13:37:11 37a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__history'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__history"', ignored.
+2020-06-05 13:37:11 37a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__navigationhiding'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__navigationhiding"', ignored.
+2020-06-05 13:37:11 37a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__pdf_pages'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__pdf_pages"', ignored.
+2020-06-05 13:37:11 37a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__recent'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__recent"', ignored.
+2020-06-05 13:37:11 37a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__relation'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__relation"', ignored.
+2020-06-05 13:37:11 37a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__savedsearches'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__savedsearches"', ignored.
+2020-06-05 13:37:11 37a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_coords'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_coords"', ignored.
+2020-06-05 13:37:11 37a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_info'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_info"', ignored.
+2020-06-05 13:37:11 37a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_uiprefs'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_uiprefs"', ignored.
+2020-06-05 13:37:11 37a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__tracking'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__tracking"', ignored.
+2020-06-05 13:37:11 37a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__userconfig'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__userconfig"', ignored.
+2020-06-05 13:37:11 37a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__usergroups'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__usergroups"', ignored.
+2020-06-05 13:37:11 37a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__users'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-05 13:37:11 14240 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__users"', ignored.
+2020-06-05 13:37:11 14240 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-05 13:37:11 14240 [Note] InnoDB: Waiting for purge to start
+2020-06-05 13:37:11 14240 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.30-76.3 started; log sequence number 68833314
+2020-06-05 13:37:12 7880 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-05 13:37:12 14240 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-05 13:37:12 14240 [Note] Server socket created on IP: '::'.
+2020-06-05 13:37:16 14240 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.16-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-05 13:48:18 12204 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+2020-06-05 13:48:18 12204 [Note] Event Scheduler: Purging the queue. 0 events
+2020-06-05 13:48:18 14008 [Note] InnoDB: FTS optimize thread exiting.
+2020-06-05 13:48:18 12204 [Note] InnoDB: Starting shutdown...
+2020-06-05 13:48:20 12204 [Note] InnoDB: Shutdown completed; log sequence number 68869091
+2020-06-05 13:48:20 12204 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+2020-06-06  9:37:39 12812 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-06  9:37:39 12812 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-06  9:37:39 12812 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-06  9:37:39 12812 [Note] InnoDB: Memory barrier is not used
+2020-06-06  9:37:39 12812 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-06  9:37:39 12812 [Note] InnoDB: Using generic crc32 instructions
+2020-06-06  9:37:39 12812 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2020-06-06  9:37:39 12812 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-06  9:37:40 12812 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-06 09:37:52 320c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__bookmark'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__bookmark"', ignored.
+2020-06-06 09:37:52 320c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__central_columns'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__central_columns"', ignored.
+2020-06-06 09:37:52 320c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__column_info'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__column_info"', ignored.
+2020-06-06 09:37:52 320c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__designer_settings'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__designer_settings"', ignored.
+2020-06-06 09:37:52 320c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__export_templates'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__export_templates"', ignored.
+2020-06-06 09:37:52 320c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__favorite'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__favorite"', ignored.
+2020-06-06 09:37:52 320c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__history'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__history"', ignored.
+2020-06-06 09:37:52 320c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__navigationhiding'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__navigationhiding"', ignored.
+2020-06-06 09:37:52 320c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__pdf_pages'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__pdf_pages"', ignored.
+2020-06-06 09:37:52 320c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__recent'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__recent"', ignored.
+2020-06-06 09:37:52 320c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__relation'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__relation"', ignored.
+2020-06-06 09:37:52 320c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__savedsearches'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__savedsearches"', ignored.
+2020-06-06 09:37:52 320c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_coords'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_coords"', ignored.
+2020-06-06 09:37:52 320c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_info'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_info"', ignored.
+2020-06-06 09:37:52 320c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_uiprefs'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_uiprefs"', ignored.
+2020-06-06 09:37:52 320c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__tracking'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__tracking"', ignored.
+2020-06-06 09:37:52 320c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__userconfig'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__userconfig"', ignored.
+2020-06-06 09:37:52 320c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__usergroups'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__usergroups"', ignored.
+2020-06-06 09:37:52 320c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__users'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06  9:37:52 12812 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__users"', ignored.
+2020-06-06  9:37:52 12812 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-06  9:37:52 12812 [Note] InnoDB: Waiting for purge to start
+2020-06-06  9:37:52 12812 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.30-76.3 started; log sequence number 68869091
+2020-06-06  9:37:52 11016 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-06  9:37:52 12812 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-06  9:37:53 12812 [Note] Server socket created on IP: '::'.
+2020-06-06  9:37:54 12812 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.16-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-06 11:30:36 14532 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+2020-06-06 11:30:36 14532 [Note] Event Scheduler: Purging the queue. 0 events
+2020-06-06 11:30:36 4188 [Note] InnoDB: FTS optimize thread exiting.
+2020-06-06 11:30:36 14532 [Note] InnoDB: Starting shutdown...
+2020-06-06 11:30:38 14532 [Note] InnoDB: Shutdown completed; log sequence number 69868757
+2020-06-06 11:30:38 14532 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+2020-06-06 11:47:25 9048 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-06 11:47:25 9048 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-06 11:47:25 9048 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-06 11:47:25 9048 [Note] InnoDB: Memory barrier is not used
+2020-06-06 11:47:25 9048 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-06 11:47:25 9048 [Note] InnoDB: Using generic crc32 instructions
+2020-06-06 11:47:25 9048 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2020-06-06 11:47:25 9048 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-06 11:47:25 9048 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-06 11:47:37 2358  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 11:47:37 9048 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__bookmark'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__bookmark"', ignored.
+2020-06-06 11:47:38 2358  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__central_columns'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__central_columns"', ignored.
+2020-06-06 11:47:38 2358  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__column_info'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__column_info"', ignored.
+2020-06-06 11:47:38 2358  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__designer_settings'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__designer_settings"', ignored.
+2020-06-06 11:47:38 2358  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__export_templates'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__export_templates"', ignored.
+2020-06-06 11:47:38 2358  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__favorite'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__favorite"', ignored.
+2020-06-06 11:47:38 2358  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__history'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__history"', ignored.
+2020-06-06 11:47:38 2358  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__navigationhiding'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__navigationhiding"', ignored.
+2020-06-06 11:47:38 2358  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__pdf_pages'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__pdf_pages"', ignored.
+2020-06-06 11:47:38 2358  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__recent'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__recent"', ignored.
+2020-06-06 11:47:38 2358  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__relation'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__relation"', ignored.
+2020-06-06 11:47:38 2358  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__savedsearches'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__savedsearches"', ignored.
+2020-06-06 11:47:38 2358  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_coords'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_coords"', ignored.
+2020-06-06 11:47:38 2358  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_info'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_info"', ignored.
+2020-06-06 11:47:38 2358  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_uiprefs'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_uiprefs"', ignored.
+2020-06-06 11:47:38 2358  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__tracking'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__tracking"', ignored.
+2020-06-06 11:47:38 2358  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__userconfig'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__userconfig"', ignored.
+2020-06-06 11:47:38 2358  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__usergroups'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__usergroups"', ignored.
+2020-06-06 11:47:38 2358  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__users'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 11:47:38 9048 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__users"', ignored.
+2020-06-06 11:47:38 9048 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-06 11:47:38 9048 [Note] InnoDB: Waiting for purge to start
+2020-06-06 11:47:38 9048 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.30-76.3 started; log sequence number 69868757
+2020-06-06 11:47:38 8104 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-06 11:47:38 9048 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-06 11:47:38 9048 [Note] Server socket created on IP: '::'.
+2020-06-06 11:47:41 9048 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.16-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-06 12:38:26 11148 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+2020-06-06 12:38:26 11148 [Note] Event Scheduler: Purging the queue. 0 events
+2020-06-06 12:38:26 8792 [Note] InnoDB: FTS optimize thread exiting.
+2020-06-06 12:38:26 11148 [Note] InnoDB: Starting shutdown...
+2020-06-06 12:38:28 11148 [Note] InnoDB: Shutdown completed; log sequence number 70508839
+2020-06-06 12:38:28 11148 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+2020-06-06 21:12:14 7184 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-06 21:12:14 7184 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-06 21:12:14 7184 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-06 21:12:14 7184 [Note] InnoDB: Memory barrier is not used
+2020-06-06 21:12:14 7184 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-06 21:12:14 7184 [Note] InnoDB: Using generic crc32 instructions
+2020-06-06 21:12:15 7184 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2020-06-06 21:12:15 7184 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-06 21:12:17 7184 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-06 21:13:18 1c10  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__bookmark'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__bookmark"', ignored.
+2020-06-06 21:13:18 1c10  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__central_columns'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__central_columns"', ignored.
+2020-06-06 21:13:18 1c10  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__column_info'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__column_info"', ignored.
+2020-06-06 21:13:18 1c10  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__designer_settings'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__designer_settings"', ignored.
+2020-06-06 21:13:18 1c10  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__export_templates'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__export_templates"', ignored.
+2020-06-06 21:13:18 1c10  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__favorite'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__favorite"', ignored.
+2020-06-06 21:13:18 1c10  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__history'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__history"', ignored.
+2020-06-06 21:13:18 1c10  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__navigationhiding'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__navigationhiding"', ignored.
+2020-06-06 21:13:18 1c10  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__pdf_pages'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__pdf_pages"', ignored.
+2020-06-06 21:13:18 1c10  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__recent'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__recent"', ignored.
+2020-06-06 21:13:18 1c10  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__relation'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__relation"', ignored.
+2020-06-06 21:13:18 1c10  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__savedsearches'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__savedsearches"', ignored.
+2020-06-06 21:13:18 1c10  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_coords'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_coords"', ignored.
+2020-06-06 21:13:18 1c10  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_info'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_info"', ignored.
+2020-06-06 21:13:18 1c10  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_uiprefs'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_uiprefs"', ignored.
+2020-06-06 21:13:18 1c10  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__tracking'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__tracking"', ignored.
+2020-06-06 21:13:18 1c10  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__userconfig'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__userconfig"', ignored.
+2020-06-06 21:13:18 1c10  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__usergroups'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__usergroups"', ignored.
+2020-06-06 21:13:18 1c10  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__users'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-06 21:13:18 7184 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__users"', ignored.
+2020-06-06 21:13:18 7184 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-06 21:13:18 7184 [Note] InnoDB: Waiting for purge to start
+2020-06-06 21:13:18 7184 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.30-76.3 started; log sequence number 70508839
+2020-06-06 21:13:18 2756 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-06 21:13:18 7184 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-06 21:13:19 7184 [Note] Server socket created on IP: '::'.
+2020-06-06 21:13:20 7184 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.16-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-06 23:06:15 1688 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+2020-06-06 23:06:16 1688 [Note] Event Scheduler: Purging the queue. 0 events
+2020-06-06 23:06:17 2940 [Note] InnoDB: FTS optimize thread exiting.
+2020-06-06 23:06:17 1688 [Note] InnoDB: Starting shutdown...
+2020-06-06 23:06:23 1688 [Note] InnoDB: Shutdown completed; log sequence number 70807197
+2020-06-06 23:06:23 1688 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+2020-06-07 10:29:14 9376 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-07 10:29:14 9376 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-07 10:29:14 9376 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-07 10:29:14 9376 [Note] InnoDB: Memory barrier is not used
+2020-06-07 10:29:14 9376 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-07 10:29:14 9376 [Note] InnoDB: Using generic crc32 instructions
+2020-06-07 10:29:14 9376 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2020-06-07 10:29:14 9376 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-07 10:29:15 9376 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-07 10:29:32 24a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__bookmark'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__bookmark"', ignored.
+2020-06-07 10:29:32 24a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__central_columns'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__central_columns"', ignored.
+2020-06-07 10:29:32 24a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__column_info'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__column_info"', ignored.
+2020-06-07 10:29:32 24a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__designer_settings'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__designer_settings"', ignored.
+2020-06-07 10:29:32 24a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__export_templates'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__export_templates"', ignored.
+2020-06-07 10:29:32 24a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__favorite'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__favorite"', ignored.
+2020-06-07 10:29:32 24a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__history'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__history"', ignored.
+2020-06-07 10:29:32 24a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__navigationhiding'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__navigationhiding"', ignored.
+2020-06-07 10:29:32 24a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__pdf_pages'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__pdf_pages"', ignored.
+2020-06-07 10:29:32 24a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__recent'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__recent"', ignored.
+2020-06-07 10:29:32 24a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__relation'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__relation"', ignored.
+2020-06-07 10:29:32 24a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__savedsearches'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__savedsearches"', ignored.
+2020-06-07 10:29:32 24a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_coords'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_coords"', ignored.
+2020-06-07 10:29:32 24a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_info'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_info"', ignored.
+2020-06-07 10:29:32 24a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_uiprefs'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_uiprefs"', ignored.
+2020-06-07 10:29:32 24a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__tracking'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__tracking"', ignored.
+2020-06-07 10:29:32 24a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__userconfig'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__userconfig"', ignored.
+2020-06-07 10:29:32 24a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__usergroups'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__usergroups"', ignored.
+2020-06-07 10:29:32 24a0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__users'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-07 10:29:32 9376 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__users"', ignored.
+2020-06-07 10:29:33 9376 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-07 10:29:33 9376 [Note] InnoDB: Waiting for purge to start
+2020-06-07 10:29:33 9376 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.30-76.3 started; log sequence number 70807197
+2020-06-07 10:29:33 6324 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-07 10:29:33 9376 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-07 10:29:33 9376 [Note] Server socket created on IP: '::'.
+2020-06-07 10:29:36 9376 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.16-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-07 10:32:44 3364 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+2020-06-07 10:32:44 3364 [Note] Event Scheduler: Purging the queue. 0 events
+2020-06-07 10:32:44 11972 [Note] InnoDB: FTS optimize thread exiting.
+2020-06-07 10:32:44 3364 [Note] InnoDB: Starting shutdown...
+2020-06-07 10:32:46 3364 [Note] InnoDB: Shutdown completed; log sequence number 70840934
+2020-06-07 10:32:46 3364 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+2020-06-08  9:29:02 6772 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-08  9:29:02 6772 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-08  9:29:02 6772 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-08  9:29:02 6772 [Note] InnoDB: Memory barrier is not used
+2020-06-08  9:29:02 6772 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-08  9:29:02 6772 [Note] InnoDB: Using generic crc32 instructions
+2020-06-08  9:29:02 6772 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2020-06-08  9:29:02 6772 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-08  9:29:03 6772 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-08 09:29:12 1a74  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__bookmark'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__bookmark"', ignored.
+2020-06-08 09:29:12 1a74  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__central_columns'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__central_columns"', ignored.
+2020-06-08 09:29:12 1a74  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__column_info'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__column_info"', ignored.
+2020-06-08 09:29:12 1a74  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__designer_settings'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__designer_settings"', ignored.
+2020-06-08 09:29:12 1a74  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__export_templates'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__export_templates"', ignored.
+2020-06-08 09:29:12 1a74  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__favorite'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__favorite"', ignored.
+2020-06-08 09:29:12 1a74  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__history'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__history"', ignored.
+2020-06-08 09:29:12 1a74  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__navigationhiding'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__navigationhiding"', ignored.
+2020-06-08 09:29:12 1a74  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__pdf_pages'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__pdf_pages"', ignored.
+2020-06-08 09:29:12 1a74  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__recent'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__recent"', ignored.
+2020-06-08 09:29:12 1a74  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__relation'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__relation"', ignored.
+2020-06-08 09:29:12 1a74  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__savedsearches'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__savedsearches"', ignored.
+2020-06-08 09:29:12 1a74  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_coords'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_coords"', ignored.
+2020-06-08 09:29:12 1a74  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_info'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_info"', ignored.
+2020-06-08 09:29:12 1a74  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_uiprefs'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_uiprefs"', ignored.
+2020-06-08 09:29:12 1a74  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__tracking'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__tracking"', ignored.
+2020-06-08 09:29:12 1a74  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__userconfig'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__userconfig"', ignored.
+2020-06-08 09:29:12 1a74  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__usergroups'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__usergroups"', ignored.
+2020-06-08 09:29:12 1a74  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__users'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-08  9:29:12 6772 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__users"', ignored.
+2020-06-08  9:29:12 6772 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-08  9:29:12 6772 [Note] InnoDB: Waiting for purge to start
+2020-06-08  9:29:12 6772 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.30-76.3 started; log sequence number 70840934
+2020-06-08  9:29:12 8148 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-08  9:29:12 6772 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-08  9:29:13 6772 [Note] Server socket created on IP: '::'.
+2020-06-08  9:29:14 6772 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.16-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-08 14:31:58 6576 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-08 14:31:58 6576 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-08 14:31:58 6576 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-08 14:31:58 6576 [Note] InnoDB: Memory barrier is not used
+2020-06-08 14:31:58 6576 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-08 14:31:58 6576 [Note] InnoDB: Using generic crc32 instructions
+2020-06-08 14:31:58 6576 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2020-06-08 14:31:58 6576 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-08 14:31:58 6576 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-08 14:31:58 6576 [Note] InnoDB: The log sequence numbers 70840934 and 70840934 in ibdata files do not match the log sequence number 70849919 in the ib_logfiles!
+2020-06-08 14:31:58 6576 [Note] InnoDB: Database was not shutdown normally!
+2020-06-08 14:31:58 6576 [Note] InnoDB: Starting crash recovery.
+2020-06-08 14:31:58 6576 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2020-06-08 14:32:07 6576 [Note] InnoDB: Restoring possible half-written data pages 
+2020-06-08 14:32:07 6576 [Note] InnoDB: from the doublewrite buffer...
+2020-06-08 14:32:08 6576 [ERROR] InnoDB: Table phpmyadmin/pma__bookmark in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-06-08 14:32:08 6576 [ERROR] InnoDB: Table phpmyadmin/pma__central_columns in the InnoDB data dictionary has tablespace id 27, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-06-08 14:32:08 6576 [ERROR] InnoDB: Table phpmyadmin/pma__column_info in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-06-08 14:32:08 6576 [ERROR] InnoDB: Table phpmyadmin/pma__designer_settings in the InnoDB data dictionary has tablespace id 28, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-06-08 14:32:08 6576 [ERROR] InnoDB: Table phpmyadmin/pma__export_templates in the InnoDB data dictionary has tablespace id 29, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-06-08 14:32:08 6576 [ERROR] InnoDB: Table phpmyadmin/pma__favorite in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-06-08 14:32:08 6576 [ERROR] InnoDB: Table phpmyadmin/pma__history in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-06-08 14:32:08 6576 [ERROR] InnoDB: Table phpmyadmin/pma__navigationhiding in the InnoDB data dictionary has tablespace id 25, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-06-08 14:32:08 6576 [ERROR] InnoDB: Table phpmyadmin/pma__pdf_pages in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-06-08 14:32:08 6576 [ERROR] InnoDB: Table phpmyadmin/pma__recent in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-06-08 14:32:08 6576 [ERROR] InnoDB: Table phpmyadmin/pma__relation in the InnoDB data dictionary has tablespace id 18, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-06-08 14:32:08 6576 [ERROR] InnoDB: Table phpmyadmin/pma__savedsearches in the InnoDB data dictionary has tablespace id 26, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-06-08 14:32:08 6576 [ERROR] InnoDB: Table phpmyadmin/pma__table_coords in the InnoDB data dictionary has tablespace id 19, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-06-08 14:32:08 6576 [ERROR] InnoDB: Table phpmyadmin/pma__table_info in the InnoDB data dictionary has tablespace id 20, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-06-08 14:32:08 6576 [ERROR] InnoDB: Table phpmyadmin/pma__table_uiprefs in the InnoDB data dictionary has tablespace id 17, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-06-08 14:32:08 6576 [ERROR] InnoDB: Table phpmyadmin/pma__tracking in the InnoDB data dictionary has tablespace id 21, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-06-08 14:32:08 6576 [ERROR] InnoDB: Table phpmyadmin/pma__userconfig in the InnoDB data dictionary has tablespace id 22, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-06-08 14:32:08 6576 [ERROR] InnoDB: Table phpmyadmin/pma__usergroups in the InnoDB data dictionary has tablespace id 24, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-06-08 14:32:08 6576 [ERROR] InnoDB: Table phpmyadmin/pma__users in the InnoDB data dictionary has tablespace id 23, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-06-08 14:32:09 6576 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-08 14:32:09 6576 [Note] InnoDB: Waiting for purge to start
+2020-06-08 14:32:09 6576 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.30-76.3 started; log sequence number 70849919
+2020-06-08 14:32:09 8264 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-08 14:32:09 6576 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-08 14:32:09 6576 [Note] Server socket created on IP: '::'.
+2020-06-08 14:32:13 6576 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.16-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-08 16:16:48 8940 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+2020-06-08 16:16:48 8940 [Note] Event Scheduler: Purging the queue. 0 events
+2020-06-08 16:16:48 7424 [Note] InnoDB: FTS optimize thread exiting.
+2020-06-08 16:16:48 8940 [Note] InnoDB: Starting shutdown...
+2020-06-08 16:16:50 8940 [Note] InnoDB: Shutdown completed; log sequence number 70858360
+2020-06-08 16:16:50 8940 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+2020-06-11  9:33:00 10540 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-11  9:33:00 10540 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-11  9:33:00 10540 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-11  9:33:00 10540 [Note] InnoDB: Memory barrier is not used
+2020-06-11  9:33:00 10540 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-11  9:33:00 10540 [Note] InnoDB: Using generic crc32 instructions
+2020-06-11  9:33:00 10540 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2020-06-11  9:33:00 10540 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-11  9:33:01 10540 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-11 09:33:10 292c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__bookmark'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__bookmark"', ignored.
+2020-06-11 09:33:10 292c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__central_columns'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__central_columns"', ignored.
+2020-06-11 09:33:10 292c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__column_info'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__column_info"', ignored.
+2020-06-11 09:33:10 292c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__designer_settings'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__designer_settings"', ignored.
+2020-06-11 09:33:10 292c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__export_templates'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__export_templates"', ignored.
+2020-06-11 09:33:10 292c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__favorite'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__favorite"', ignored.
+2020-06-11 09:33:10 292c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__history'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__history"', ignored.
+2020-06-11 09:33:10 292c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__navigationhiding'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__navigationhiding"', ignored.
+2020-06-11 09:33:10 292c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__pdf_pages'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__pdf_pages"', ignored.
+2020-06-11 09:33:10 292c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__recent'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__recent"', ignored.
+2020-06-11 09:33:10 292c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__relation'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__relation"', ignored.
+2020-06-11 09:33:10 292c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__savedsearches'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__savedsearches"', ignored.
+2020-06-11 09:33:10 292c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_coords'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_coords"', ignored.
+2020-06-11 09:33:10 292c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_info'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_info"', ignored.
+2020-06-11 09:33:10 292c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__table_uiprefs'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__table_uiprefs"', ignored.
+2020-06-11 09:33:10 292c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__tracking'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__tracking"', ignored.
+2020-06-11 09:33:10 292c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__userconfig'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__userconfig"', ignored.
+2020-06-11 09:33:10 292c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__usergroups'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__usergroups"', ignored.
+2020-06-11 09:33:10 292c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Could not find a valid tablespace file for 'phpmyadmin/pma__users'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-06-11  9:33:10 10540 [ERROR] InnoDB: Tablespace open failed for '"phpmyadmin"."pma__users"', ignored.
+2020-06-11  9:33:10 10540 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-11  9:33:10 10540 [Note] InnoDB: Waiting for purge to start
+2020-06-11  9:33:10 10540 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.30-76.3 started; log sequence number 70858360
+2020-06-11  9:33:11 10960 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-11  9:33:11 10540 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-11  9:33:11 10540 [Note] Server socket created on IP: '::'.
