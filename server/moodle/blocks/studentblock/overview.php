@@ -48,7 +48,7 @@
     echo $OUTPUT->heading($title, 2);
 
     echo $OUTPUT->container_start('block_studentblock');
-     
+    assginment($courseid, $userid );
 
     echo $OUTPUT->container_end();
 
