@@ -2847,3 +2847,211 @@ PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Sun Jun 14 12:19:06.953057 2020] [core:notice] [pid 12184:tid 640] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
 [Sun Jun 14 12:19:06.957013 2020] [mpm_winnt:notice] [pid 12184:tid 640] AH00418: Parent: Created child process 8360
 [Sun Jun 14 12:19:08.625849 2020] [ssl:warn] [pid 8360:tid 848] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 14 12:19:09.289930 2020] [ssl:warn] [pid 8360:tid 848] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sun Jun 14 12:19:09.322875 2020] [mpm_winnt:notice] [pid 8360:tid 848] AH00354: Child: Starting 150 worker threads.
+[Sun Jun 14 12:49:50.386507 2020] [mpm_winnt:notice] [pid 12184:tid 640] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jun 14 12:49:52.498244 2020] [mpm_winnt:notice] [pid 8360:tid 848] AH00364: Child: All worker threads have exited.
+[Sun Jun 14 12:49:54.241741 2020] [mpm_winnt:notice] [pid 12184:tid 640] AH00430: Parent: Child process 8360 exited successfully.
+[Mon Jun 15 14:01:04.351799 2020] [ssl:warn] [pid 10528:tid 840] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 15 14:01:05.270238 2020] [ssl:warn] [pid 10528:tid 840] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Jun 15 14:01:09.466549 2020] [mpm_winnt:notice] [pid 10528:tid 840] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Mon Jun 15 14:01:09.466549 2020] [mpm_winnt:notice] [pid 10528:tid 840] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Mon Jun 15 14:01:09.466549 2020] [core:notice] [pid 10528:tid 840] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Mon Jun 15 14:01:09.471536 2020] [mpm_winnt:notice] [pid 10528:tid 840] AH00418: Parent: Created child process 1836
+[Mon Jun 15 14:01:11.611960 2020] [ssl:warn] [pid 1836:tid 852] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 15 14:01:12.567779 2020] [ssl:warn] [pid 1836:tid 852] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Jun 15 14:01:12.652552 2020] [mpm_winnt:notice] [pid 1836:tid 852] AH00354: Child: Starting 150 worker threads.
+[Mon Jun 15 16:37:26.548174 2020] [mpm_winnt:notice] [pid 10528:tid 840] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 15 16:37:28.952001 2020] [mpm_winnt:notice] [pid 1836:tid 852] AH00364: Child: All worker threads have exited.
+[Mon Jun 15 16:37:30.537117 2020] [mpm_winnt:notice] [pid 10528:tid 840] AH00430: Parent: Child process 1836 exited successfully.
+[Mon Jun 15 17:09:14.072782 2020] [ssl:warn] [pid 5632:tid 780] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 15 17:09:14.965063 2020] [ssl:warn] [pid 5632:tid 780] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Jun 15 17:09:15.097225 2020] [mpm_winnt:notice] [pid 5632:tid 780] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Mon Jun 15 17:09:15.097225 2020] [mpm_winnt:notice] [pid 5632:tid 780] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Mon Jun 15 17:09:15.097225 2020] [core:notice] [pid 5632:tid 780] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Mon Jun 15 17:09:15.101214 2020] [mpm_winnt:notice] [pid 5632:tid 780] AH00418: Parent: Created child process 8252
+[Mon Jun 15 17:09:16.600158 2020] [ssl:warn] [pid 8252:tid 784] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 15 17:09:16.855606 2020] [ssl:warn] [pid 8252:tid 784] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Jun 15 17:09:16.976534 2020] [mpm_winnt:notice] [pid 8252:tid 784] AH00354: Child: Starting 150 worker threads.
+[Mon Jun 15 17:17:27.043654 2020] [mpm_winnt:notice] [pid 5632:tid 780] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 15 17:17:29.045488 2020] [mpm_winnt:notice] [pid 8252:tid 784] AH00364: Child: All worker threads have exited.
+[Mon Jun 15 17:17:29.230240 2020] [mpm_winnt:notice] [pid 5632:tid 780] AH00430: Parent: Child process 8252 exited successfully.
+[Mon Jun 15 17:20:52.532757 2020] [ssl:warn] [pid 9384:tid 820] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 15 17:20:53.212514 2020] [ssl:warn] [pid 9384:tid 820] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Jun 15 17:20:53.249352 2020] [mpm_winnt:notice] [pid 9384:tid 820] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Mon Jun 15 17:20:53.249352 2020] [mpm_winnt:notice] [pid 9384:tid 820] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Mon Jun 15 17:20:53.249352 2020] [core:notice] [pid 9384:tid 820] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Mon Jun 15 17:20:53.253340 2020] [mpm_winnt:notice] [pid 9384:tid 820] AH00418: Parent: Created child process 10680
+[Mon Jun 15 17:20:54.924004 2020] [ssl:warn] [pid 10680:tid 820] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 15 17:20:55.616987 2020] [ssl:warn] [pid 10680:tid 820] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Jun 15 17:20:55.651893 2020] [mpm_winnt:notice] [pid 10680:tid 820] AH00354: Child: Starting 150 worker threads.
+zend_mm_heap corrupted
+[Mon Jun 15 17:21:56.504505 2020] [mpm_winnt:notice] [pid 9384:tid 820] AH00428: Parent: child process 10680 exited with status 1 -- Restarting.
+[Mon Jun 15 17:21:57.483362 2020] [ssl:warn] [pid 9384:tid 820] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Jun 15 17:21:57.519601 2020] [mpm_winnt:notice] [pid 9384:tid 820] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Mon Jun 15 17:21:57.519601 2020] [mpm_winnt:notice] [pid 9384:tid 820] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Mon Jun 15 17:21:57.519601 2020] [core:notice] [pid 9384:tid 820] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Mon Jun 15 17:21:57.524017 2020] [mpm_winnt:notice] [pid 9384:tid 820] AH00418: Parent: Created child process 2836
+[Mon Jun 15 17:21:59.347645 2020] [ssl:warn] [pid 2836:tid 820] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 15 17:22:00.077375 2020] [ssl:warn] [pid 2836:tid 820] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Jun 15 17:22:00.111285 2020] [mpm_winnt:notice] [pid 2836:tid 820] AH00354: Child: Starting 150 worker threads.
+[Mon Jun 15 18:01:35.315958 2020] [mpm_winnt:notice] [pid 9384:tid 820] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 15 18:01:37.437694 2020] [mpm_winnt:notice] [pid 2836:tid 820] AH00364: Child: All worker threads have exited.
+[Mon Jun 15 18:01:38.991587 2020] [mpm_winnt:notice] [pid 9384:tid 820] AH00430: Parent: Child process 2836 exited successfully.
+[Mon Jun 15 18:17:04.348784 2020] [ssl:warn] [pid 5788:tid 812] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 15 18:17:04.756798 2020] [ssl:warn] [pid 5788:tid 812] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Jun 15 18:17:05.036143 2020] [mpm_winnt:notice] [pid 5788:tid 812] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Mon Jun 15 18:17:05.058551 2020] [mpm_winnt:notice] [pid 5788:tid 812] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Mon Jun 15 18:17:05.058551 2020] [core:notice] [pid 5788:tid 812] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Mon Jun 15 18:17:05.062418 2020] [mpm_winnt:notice] [pid 5788:tid 812] AH00418: Parent: Created child process 14112
+[Mon Jun 15 18:17:06.265431 2020] [ssl:warn] [pid 14112:tid 820] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 15 18:17:06.518463 2020] [ssl:warn] [pid 14112:tid 820] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Jun 15 18:17:06.588948 2020] [mpm_winnt:notice] [pid 14112:tid 820] AH00354: Child: Starting 150 worker threads.
+[Mon Jun 15 18:34:17.878143 2020] [mpm_winnt:notice] [pid 5788:tid 812] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 15 18:34:47.879177 2020] [mpm_winnt:notice] [pid 5788:tid 812] AH00431: Parent: Forcing termination of child process 14112
+[Tue Jun 16 08:58:33.688640 2020] [ssl:warn] [pid 2528:tid 752] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 16 08:58:33.980100 2020] [ssl:warn] [pid 2528:tid 752] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Tue Jun 16 08:58:36.732818 2020] [mpm_winnt:notice] [pid 2528:tid 752] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Tue Jun 16 08:58:36.732818 2020] [mpm_winnt:notice] [pid 2528:tid 752] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Tue Jun 16 08:58:36.732818 2020] [core:notice] [pid 2528:tid 752] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Tue Jun 16 08:58:36.736809 2020] [mpm_winnt:notice] [pid 2528:tid 752] AH00418: Parent: Created child process 8808
+[Tue Jun 16 08:58:37.965704 2020] [ssl:warn] [pid 8808:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 16 08:58:38.175241 2020] [ssl:warn] [pid 8808:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Tue Jun 16 08:58:38.207737 2020] [mpm_winnt:notice] [pid 8808:tid 240] AH00354: Child: Starting 150 worker threads.
+[Tue Jun 16 09:15:22.918599 2020] [mpm_winnt:notice] [pid 2528:tid 752] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jun 16 09:15:24.919670 2020] [mpm_winnt:notice] [pid 8808:tid 240] AH00364: Child: All worker threads have exited.
+[Tue Jun 16 09:15:25.213056 2020] [mpm_winnt:notice] [pid 2528:tid 752] AH00430: Parent: Child process 8808 exited successfully.
+[Tue Jun 16 09:39:57.872975 2020] [ssl:warn] [pid 9328:tid 772] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 16 09:39:58.626623 2020] [ssl:warn] [pid 9328:tid 772] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Tue Jun 16 09:39:58.830052 2020] [mpm_winnt:notice] [pid 9328:tid 772] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Tue Jun 16 09:39:58.830052 2020] [mpm_winnt:notice] [pid 9328:tid 772] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Tue Jun 16 09:39:58.830052 2020] [core:notice] [pid 9328:tid 772] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Tue Jun 16 09:39:58.889274 2020] [mpm_winnt:notice] [pid 9328:tid 772] AH00418: Parent: Created child process 8120
+[Tue Jun 16 09:40:00.533737 2020] [ssl:warn] [pid 8120:tid 784] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 16 09:40:01.192165 2020] [ssl:warn] [pid 8120:tid 784] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Tue Jun 16 09:40:01.225229 2020] [mpm_winnt:notice] [pid 8120:tid 784] AH00354: Child: Starting 150 worker threads.
+[Tue Jun 16 15:28:44.281590 2020] [ssl:warn] [pid 8156:tid 780] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 16 15:28:44.690593 2020] [core:warn] [pid 8156:tid 780] AH00098: pid file D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jun 16 15:28:44.845179 2020] [ssl:warn] [pid 8156:tid 780] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Tue Jun 16 15:28:51.331548 2020] [mpm_winnt:notice] [pid 8156:tid 780] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Tue Jun 16 15:28:51.331548 2020] [mpm_winnt:notice] [pid 8156:tid 780] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Tue Jun 16 15:28:51.331548 2020] [core:notice] [pid 8156:tid 780] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Tue Jun 16 15:28:51.335535 2020] [mpm_winnt:notice] [pid 8156:tid 780] AH00418: Parent: Created child process 3508
+[Tue Jun 16 15:28:52.615175 2020] [ssl:warn] [pid 3508:tid 832] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 16 15:28:52.851719 2020] [ssl:warn] [pid 3508:tid 832] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Tue Jun 16 15:28:52.883698 2020] [mpm_winnt:notice] [pid 3508:tid 832] AH00354: Child: Starting 150 worker threads.
+[Tue Jun 16 17:20:17.032859 2020] [mpm_winnt:notice] [pid 8156:tid 780] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jun 16 17:20:19.176186 2020] [mpm_winnt:notice] [pid 3508:tid 832] AH00364: Child: All worker threads have exited.
+[Tue Jun 16 17:20:20.176233 2020] [mpm_winnt:notice] [pid 8156:tid 780] AH00430: Parent: Child process 3508 exited successfully.
+[Tue Jun 16 17:42:28.332724 2020] [ssl:warn] [pid 9332:tid 796] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 16 17:42:29.264471 2020] [ssl:warn] [pid 9332:tid 796] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Tue Jun 16 17:42:33.135065 2020] [mpm_winnt:notice] [pid 9332:tid 796] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Tue Jun 16 17:42:33.135065 2020] [mpm_winnt:notice] [pid 9332:tid 796] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Tue Jun 16 17:42:33.135065 2020] [core:notice] [pid 9332:tid 796] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Tue Jun 16 17:42:33.140022 2020] [mpm_winnt:notice] [pid 9332:tid 796] AH00418: Parent: Created child process 12244
+[Tue Jun 16 17:42:34.902671 2020] [ssl:warn] [pid 12244:tid 772] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 16 17:42:35.649830 2020] [ssl:warn] [pid 12244:tid 772] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Tue Jun 16 17:42:35.851035 2020] [mpm_winnt:notice] [pid 12244:tid 772] AH00354: Child: Starting 150 worker threads.
+[Tue Jun 16 18:12:37.982648 2020] [mpm_winnt:notice] [pid 9332:tid 796] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jun 16 18:12:40.003496 2020] [mpm_winnt:notice] [pid 12244:tid 772] AH00364: Child: All worker threads have exited.
+[Tue Jun 16 18:12:40.481567 2020] [mpm_winnt:notice] [pid 9332:tid 796] AH00430: Parent: Child process 12244 exited successfully.
+[Tue Jun 16 18:20:13.127768 2020] [ssl:warn] [pid 8684:tid 832] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 16 18:20:13.992192 2020] [ssl:warn] [pid 8684:tid 832] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Tue Jun 16 18:20:14.067410 2020] [mpm_winnt:notice] [pid 8684:tid 832] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Tue Jun 16 18:20:14.067410 2020] [mpm_winnt:notice] [pid 8684:tid 832] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Tue Jun 16 18:20:14.067410 2020] [core:notice] [pid 8684:tid 832] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Tue Jun 16 18:20:14.071396 2020] [mpm_winnt:notice] [pid 8684:tid 832] AH00418: Parent: Created child process 11536
+[Tue Jun 16 18:20:15.642817 2020] [ssl:warn] [pid 11536:tid 828] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 16 18:20:16.272017 2020] [ssl:warn] [pid 11536:tid 828] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Tue Jun 16 18:20:16.305927 2020] [mpm_winnt:notice] [pid 11536:tid 828] AH00354: Child: Starting 150 worker threads.
+zend_mm_heap corrupted
+[Tue Jun 16 21:43:37.267833 2020] [mpm_winnt:notice] [pid 8684:tid 832] AH00428: Parent: child process 11536 exited with status 1 -- Restarting.
+[Tue Jun 16 21:43:38.114840 2020] [ssl:warn] [pid 8684:tid 832] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Tue Jun 16 21:43:38.192194 2020] [mpm_winnt:notice] [pid 8684:tid 832] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Tue Jun 16 21:43:38.192194 2020] [mpm_winnt:notice] [pid 8684:tid 832] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Tue Jun 16 21:43:38.192194 2020] [core:notice] [pid 8684:tid 832] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Tue Jun 16 21:43:38.232167 2020] [mpm_winnt:notice] [pid 8684:tid 832] AH00418: Parent: Created child process 10140
+[Tue Jun 16 21:43:39.325279 2020] [ssl:warn] [pid 10140:tid 684] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 16 21:43:39.512775 2020] [ssl:warn] [pid 10140:tid 684] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Tue Jun 16 21:43:39.543110 2020] [mpm_winnt:notice] [pid 10140:tid 684] AH00354: Child: Starting 150 worker threads.
+[Tue Jun 16 22:43:51.555819 2020] [ssl:warn] [pid 4512:tid 680] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 16 22:43:51.646070 2020] [core:warn] [pid 4512:tid 680] AH00098: pid file D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jun 16 22:43:51.762786 2020] [ssl:warn] [pid 4512:tid 680] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Tue Jun 16 22:43:53.187566 2020] [mpm_winnt:notice] [pid 4512:tid 680] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Tue Jun 16 22:43:53.187566 2020] [mpm_winnt:notice] [pid 4512:tid 680] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Tue Jun 16 22:43:53.187566 2020] [core:notice] [pid 4512:tid 680] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Tue Jun 16 22:43:53.191555 2020] [mpm_winnt:notice] [pid 4512:tid 680] AH00418: Parent: Created child process 12284
+[Tue Jun 16 22:43:54.353676 2020] [ssl:warn] [pid 12284:tid 704] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 16 22:43:54.558993 2020] [ssl:warn] [pid 12284:tid 704] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Tue Jun 16 22:43:54.587468 2020] [mpm_winnt:notice] [pid 12284:tid 704] AH00354: Child: Starting 150 worker threads.
+[Wed Jun 17 00:00:59.001825 2020] [mpm_winnt:notice] [pid 4512:tid 680] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jun 17 00:01:01.174414 2020] [mpm_winnt:notice] [pid 12284:tid 704] AH00364: Child: All worker threads have exited.
+[Wed Jun 17 00:01:02.776306 2020] [mpm_winnt:notice] [pid 4512:tid 680] AH00430: Parent: Child process 12284 exited successfully.
+[Thu Jun 18 08:44:17.194867 2020] [ssl:warn] [pid 788:tid 684] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 18 08:44:17.595181 2020] [ssl:warn] [pid 788:tid 684] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Thu Jun 18 08:44:20.120017 2020] [mpm_winnt:notice] [pid 788:tid 684] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Thu Jun 18 08:44:20.120017 2020] [mpm_winnt:notice] [pid 788:tid 684] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Thu Jun 18 08:44:20.121012 2020] [core:notice] [pid 788:tid 684] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Thu Jun 18 08:44:20.130471 2020] [mpm_winnt:notice] [pid 788:tid 684] AH00418: Parent: Created child process 7232
+[Thu Jun 18 08:44:21.689520 2020] [ssl:warn] [pid 7232:tid 684] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 18 08:44:21.941547 2020] [ssl:warn] [pid 7232:tid 684] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Thu Jun 18 08:44:22.000392 2020] [mpm_winnt:notice] [pid 7232:tid 684] AH00354: Child: Starting 150 worker threads.
+[Thu Jun 18 10:08:44.384811 2020] [mpm_winnt:notice] [pid 788:tid 684] AH00428: Parent: child process 7232 exited with status 3221226356 -- Restarting.
+[Thu Jun 18 10:08:49.874060 2020] [ssl:warn] [pid 788:tid 684] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Thu Jun 18 10:08:52.717342 2020] [mpm_winnt:notice] [pid 788:tid 684] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Thu Jun 18 10:08:52.730397 2020] [mpm_winnt:notice] [pid 788:tid 684] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Thu Jun 18 10:08:52.730397 2020] [core:notice] [pid 788:tid 684] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Thu Jun 18 10:08:52.849007 2020] [mpm_winnt:notice] [pid 788:tid 684] AH00418: Parent: Created child process 13576
+[Thu Jun 18 10:08:54.900446 2020] [ssl:warn] [pid 13576:tid 720] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 18 10:08:55.131954 2020] [ssl:warn] [pid 13576:tid 720] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Thu Jun 18 10:08:55.188890 2020] [mpm_winnt:notice] [pid 13576:tid 720] AH00354: Child: Starting 150 worker threads.
+zend_mm_heap corrupted
+[Thu Jun 18 10:09:28.537775 2020] [mpm_winnt:notice] [pid 788:tid 684] AH00428: Parent: child process 13576 exited with status 1 -- Restarting.
+[Thu Jun 18 10:09:29.017263 2020] [ssl:warn] [pid 788:tid 684] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Thu Jun 18 10:09:29.048152 2020] [mpm_winnt:notice] [pid 788:tid 684] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Thu Jun 18 10:09:29.048152 2020] [mpm_winnt:notice] [pid 788:tid 684] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Thu Jun 18 10:09:29.048152 2020] [core:notice] [pid 788:tid 684] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Thu Jun 18 10:09:29.052142 2020] [mpm_winnt:notice] [pid 788:tid 684] AH00418: Parent: Created child process 12684
+[Thu Jun 18 10:09:30.817296 2020] [ssl:warn] [pid 12684:tid 696] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 18 10:09:31.049626 2020] [ssl:warn] [pid 12684:tid 696] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Thu Jun 18 10:09:31.080207 2020] [mpm_winnt:notice] [pid 12684:tid 696] AH00354: Child: Starting 150 worker threads.
+zend_mm_heap corrupted
+[Thu Jun 18 10:15:35.169167 2020] [mpm_winnt:notice] [pid 788:tid 684] AH00428: Parent: child process 12684 exited with status 1 -- Restarting.
+[Thu Jun 18 10:15:36.156311 2020] [ssl:warn] [pid 788:tid 684] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Thu Jun 18 10:15:36.835779 2020] [mpm_winnt:notice] [pid 788:tid 684] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Thu Jun 18 10:15:36.835779 2020] [mpm_winnt:notice] [pid 788:tid 684] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Thu Jun 18 10:15:36.835779 2020] [core:notice] [pid 788:tid 684] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Thu Jun 18 10:15:36.839769 2020] [mpm_winnt:notice] [pid 788:tid 684] AH00418: Parent: Created child process 12112
+[Thu Jun 18 10:15:39.387024 2020] [ssl:warn] [pid 12112:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name

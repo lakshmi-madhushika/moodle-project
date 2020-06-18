@@ -49,7 +49,7 @@
 
     echo $OUTPUT->container_start('block_viewsblock');
  
-        
+    get_coursees($userid,$courseid);
     echo $OUTPUT->container_end();
 
     echo $OUTPUT->footer();

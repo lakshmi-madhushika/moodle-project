@@ -13,7 +13,7 @@
         
         // draw graph according to views of subject 
         function get_logins_data($id2,$ndays,$action,$courseid){
-                global $DB,$countuser,$X, $OUTPUT,$name,$max,$cat,$u;                
+                global $DB,$countuser,$X, $OUTPUT,$name,$max,$cat,$u,$ylabel;                
                 $u=0;  
                 $max=1;
                 $countuser=0;
@@ -70,6 +70,7 @@
                                                                         $data[$X]=$va->countusers;                                                                                                        
                                                                 } 
                                                                 $X++; 
+                                                                $ylabel='number of views';
                                                         }else{
                                                                 $sql6= "SELECT COUNT(userid) AS 'countusers'
                                                                         FROM {logstore_standard_log} 
@@ -79,7 +80,8 @@
                                                                 foreach($login6 as $f=>$va){                                        
                                                                         $data[$X]=$va->countusers;                                                                                                        
                                                                 } 
-                                                                $X++;                                           
+                                                                $X++; 
+                                                                $ylabel='number of all actions'  ;                                        
                                                         }                                                                        
                                                 } 
                                                 foreach ($all as $o=>$valu){
@@ -97,7 +99,7 @@
                                         }                 
                                         $chart->set_labels($labe2);
                                         $yaxis = $chart->get_yaxis(0, true);
-                                        $yaxis->set_label('number of views');
+                                        $yaxis->set_label($ylabel);
                                         $yaxis->set_stepsize(max(1,round($max  / 10)));                                        
                                         echo $OUTPUT->render($chart);     
                                 } 
@@ -114,7 +116,7 @@
                 // foreach($dat as $a=>$val){
                 //         echo $val->id.'--'.$val->shortname.'<br>';
                 // }
-                $sql1 = "SELECT * FROM {role_assignments} WHERE roleid=5 AND userid='$userid';";
+                $sql1 = "SELECT * FROM {role_assignments} WHERE  userid='$userid';";
                 $res = $DB->get_records_sql($sql1);
                 foreach ($res as $s=>$val){
                         $contextids=$val->contextid;       

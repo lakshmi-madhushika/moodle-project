@@ -47,7 +47,7 @@
         
         //draw graph according to views of subject 
         function get_login_data($s,$ndays,$action){
-                global $DB,$countuser,$X, $OUTPUT,$name,$max;
+                global $DB,$countuser,$X, $OUTPUT,$name,$max,$yname;
                 $max=1;
                 $countuser=0;
                 $name='';  
@@ -83,6 +83,7 @@
                                                 $data[$X]=$va->countusers;                                                                                                        
                                         } 
                                         $X++; 
+                                        $yname='number of views';
                                 }else{
                                         $sql6= "SELECT COUNT(userid) AS 'countusers'
                                                 FROM {logstore_standard_log} 
@@ -95,7 +96,7 @@
                                         } 
                                         $X++; 
                                         
-                                        
+                                        $yname='number of all actions';
                                 }
                                                             
                         } 
@@ -114,7 +115,7 @@
  
                 $chart->set_labels($labe2);
                 $yaxis = $chart->get_yaxis(0, true);
-                $yaxis->set_label('number of views');
+                $yaxis->set_label($yname);
                 $yaxis->set_stepsize(max(1,round($max  / 10)));
                 
                 echo $OUTPUT->render($chart);                  
