@@ -48,7 +48,7 @@
     echo $OUTPUT->heading($title, 2);
 
     echo $OUTPUT->container_start('block_simplehtml');
-    $ndayss=array('30','60','120','150');
+    $ndayss=array('select number of days','30','60','120','150');
     $actions=array('viewed','All Actions');
          echo html_writer::start_tag('div');
              echo html_writer::start_tag('form', array('action' =>'overview.php', 'method' => 'post'));
