@@ -3058,3 +3058,14 @@ PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Thu Jun 18 10:15:39.605025 2020] [ssl:warn] [pid 12112:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Thu Jun 18 10:15:39.632193 2020] [mpm_winnt:notice] [pid 12112:tid 648] AH00354: Child: Starting 150 worker threads.
+[Thu Jun 18 11:41:54.486462 2020] [mpm_winnt:notice] [pid 788:tid 684] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jun 18 11:41:56.809578 2020] [mpm_winnt:notice] [pid 12112:tid 648] AH00364: Child: All worker threads have exited.
+[Thu Jun 18 11:42:00.407713 2020] [mpm_winnt:notice] [pid 788:tid 684] AH00430: Parent: Child process 12112 exited successfully.
+[Mon Jun 22 09:51:36.474180 2020] [ssl:warn] [pid 7068:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 22 09:51:37.033991 2020] [ssl:warn] [pid 7068:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Jun 22 09:51:41.413005 2020] [mpm_winnt:notice] [pid 7068:tid 672] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Mon Jun 22 09:51:41.414035 2020] [mpm_winnt:notice] [pid 7068:tid 672] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Mon Jun 22 09:51:41.414035 2020] [core:notice] [pid 7068:tid 672] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/SUBJECTS/3/subject/compulsory/GP/git_repo/moodle-project/server/apache -f conf\\httpd.conf'
+[Mon Jun 22 09:51:41.416993 2020] [mpm_winnt:notice] [pid 7068:tid 672] AH00418: Parent: Created child process 8144
+[Mon Jun 22 09:51:42.564463 2020] [ssl:warn] [pid 8144:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name

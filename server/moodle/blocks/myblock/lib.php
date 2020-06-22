@@ -66,7 +66,9 @@
                         $d->modify('+1 days');                                
                 }                               
                         
-                $chart = new \core\chart_line();   
+                $chart = new \core\chart_line();  
+                
+                //$chart->set_smooth(true); 
                 $cours=$DB->get_records_sql('SELECT id,fullname,idnumber FROM {course}');
 
                 foreach($s as $a){
