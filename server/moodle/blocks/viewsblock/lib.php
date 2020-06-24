@@ -305,16 +305,16 @@
                         }
                         echo html_writer::start_tag('div', array('style' => 'border-style:groove ; height:5% ; '));   
                                 if(sizeof($label1)>0){
-                                        $chart = new \core\chart_pie(); 
-                                        $chart->set_doughnut(true); 
+                                        $chart = new \core\chart_bar(); 
+                                        //$chart->set_doughnut(true); 
                                         //$chart->set_legend_options(['position'=>'left']);      
                                         //$chart->set_horizontal(true);
                                         $series1 = new \core\chart_series('views', $label2);
                                         $chart->add_series($series1);       
                                         $chart->set_labels($label1);
-                                        // $yaxis = $chart->get_yaxis(0, true);
-                                        // $yaxis->set_label('number of views');
-                                        //$yaxis->set_stepsize(max(1,round(max($label2)  / 10)));
+                                         $yaxis = $chart->get_yaxis(0, true);
+                                         $yaxis->set_label('number of views');
+                                        $yaxis->set_stepsize(max(1,round(max($label2)  / 10)));
                                                   
                                         echo $OUTPUT->render($chart);  
                                 } 
